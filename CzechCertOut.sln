@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19EEA07D-7D30-42C8-A6F3-A457F4BD07B4}"
+	ProjectSection(SolutionItems) = preProject
+		CzechCertOut.html = CzechCertOut.html
+		Mainscript.js = Mainscript.js
+		StyleSheet2.css = StyleSheet2.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nav", "Nav", "{8E34E62B-EAAB-4849-B25E-3F4845AE5CA7}"
+	ProjectSection(SolutionItems) = preProject
+		Import.js = Import.js
+		NavDivs.js = NavDivs.js
+		PrintDivs.js = PrintDivs.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E34E62B-EAAB-4849-B25E-3F4845AE5CA7} = {19EEA07D-7D30-42C8-A6F3-A457F4BD07B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9569EDD-091D-4D9A-B6A8-8EB6C165AABD}
