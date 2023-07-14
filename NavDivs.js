@@ -12,7 +12,7 @@ export var BCQFNAV02 = `
     <label for="mechoice2"> For someone else </label>
     </div>
   <div class="button">
-                <input type="button" id="nav02btn" value="Potvrdit" />
+                <input type="button" id="nav02btn" value="Next" />
             </div>
   </form>
 </div> `
