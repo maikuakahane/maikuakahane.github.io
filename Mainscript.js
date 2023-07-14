@@ -1,5 +1,5 @@
 // JavaScript source code
-
+import { BCQFNAV02 } from "./NavDivs.js"
 
 
 
@@ -10,6 +10,11 @@ window.onload => () {
   var NAVF = document.getElementById("CCqfnav01")
 
   BCBTN.onclick => () {
-    NAVF.innerHTML = 
+    NAVF.innerHTML = BCQFNAV02
+      let NAV02BTN = document.getElementById("nav02btn")
+      let FORME =
+      NAV02BTN.onclick => () {
+        
+      }
   }
 }
