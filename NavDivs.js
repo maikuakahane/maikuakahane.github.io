@@ -16,3 +16,139 @@ export var BCQFNAV02 = `
             </div>
   </form>
 </div> `
+
+export var BCDFNAV01A = `
+<div class="questform" id="bcdfnav1a">
+        <h2>Your details</h2>
+        <form>
+            <div>
+                <label> Your first and middle names: </label>
+                <input type="text" id="Fname01">
+            </div>
+            <div>
+                <label> Your current surname: </label>
+                <input type="text" id="Csname01">
+            </div>
+            <div>
+                <label> Your surname at birth: </label>
+                <input type="text" id="Bsname01">
+            </div>
+             <div>
+                <label>Date of your birth: </label>
+                <input type="date" id="Dob01">
+            </div>
+            <div>
+                <label>Place of your birth (town): </label>
+                <input type="text" id="Pob01">
+            </div>
+            <div>
+                <label>Country of your birth</label>
+                <input type="text" id="Cob01">
+            </div>
+            <div class="button">
+                <input type="button" id="df01btn1" value="Next" />
+            </div>
+        </form>
+    </div> `
+
+export var BCDFNAV01B = `
+<div class="questform" id="bcdfnav1b">
+        <h2>Details of the person you are applying for</h2>
+        <form>
+            <div>
+                <label> Their first and middle names: </label>
+                <input type="text" id="Fname01">
+            </div>
+            <div>
+                <label> Their current surname: </label>
+                <input type="text" id="Csname01">
+            </div>
+            <div>
+                <label> Their surname at birth: </label>
+                <input type="text" id="Bsname01">
+            </div>
+             <div>
+                <label>Date of their birth: </label>
+                <input type="date" id="Dob01">
+            </div>
+            <div>
+                <label>Place of their birth (town): </label>
+                <input type="text" id="Pob01">
+            </div>
+            <div>
+                <label>Country of their birth</label>
+                <input type="text" id="Cob01">
+            </div>
+            <div class="button">
+                <input type="button" id="df01btn1" value="Next" />
+            </div>
+        </form>
+    </div> `
+
+export var BCDFNAV02A = `
+<div class="questform" id="bcdfnav1a">
+        <h2>Details of your parents</h2>
+        <form>
+            <div>
+                <label> Your mother\'s first and middle names: </label>
+                <input type="text" id="Fname03">
+            </div>
+            <div>
+                <label> Your mother\'s current surname: </label>
+                <input type="text" id="Csname03">
+            </div>
+            <div>
+                <label> Your mother\'s surname at birth: </label>
+                <input type="text" id="Bsname03">
+            </div>
+            <div>
+                <label> Your father\'s first and middle names: </label>
+                <input type="text" id="Fname03">
+            </div>
+            <div>
+                <label> Your father\'s current surname: </label>
+                <input type="text" id="Csname03">
+            </div>
+            <div>
+                <label> Your father\'s surname at birth: </label>
+                <input type="text" id="Bsname03">
+            </div>
+            <div class="button">
+                <input type="button" id="df02btn1" value="Next" />
+            </div>
+        </form>
+    </div> `
+
+export var BCDFNAV02B = `
+<div class="questform" id="bcdfnav1a">
+        <h2>Details of  parents of the person you are applying for</h2>
+        <form>
+            <div>
+                <label> Your mother\'s first and middle names: </label>
+                <input type="text" id="Fname03">
+            </div>
+            <div>
+                <label> Your mother\'s current surname: </label>
+                <input type="text" id="Csname03">
+            </div>
+            <div>
+                <label> Your mother\'s surname at birth: </label>
+                <input type="text" id="Bsname03">
+            </div>
+            <div>
+                <label> Your father\'s first and middle names: </label>
+                <input type="text" id="Fname04">
+            </div>
+            <div>
+                <label> Your father\'s current surname: </label>
+                <input type="text" id="Csname04">
+            </div>
+            <div>
+                <label> Your father\'s surname at birth: </label>
+                <input type="text" id="Bsname04">
+            </div>
+            <div class="button">
+                <input type="button" id="df02btn1" value="Next" />
+            </div>
+        </form>
+    </div> `
