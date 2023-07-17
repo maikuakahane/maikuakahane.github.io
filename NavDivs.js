@@ -86,7 +86,7 @@ export var BCDFNAV01B = `
     </div> `
 
 export var BCDFNAV02A = `
-<div class="questform" id="bcdfnav1a">
+<div class="questform" id="bcdfnav2a">
         <h2>Details of your parents</h2>
         <form>
             <div>
@@ -120,7 +120,7 @@ export var BCDFNAV02A = `
     </div> `
 
 export var BCDFNAV02B = `
-<div class="questform" id="bcdfnav1a">
+<div class="questform" id="bcdfnav2a">
         <h2>Details of  parents of the person you are applying for</h2>
         <form>
             <div>
@@ -152,3 +152,55 @@ export var BCDFNAV02B = `
             </div>
         </form>
     </div> `
+
+export var BCDFNAV03A = `
+<div class="questform" id="bcdfnav3a">
+  <h2> If you were born before 31.12.1945 what was your religion at birth</h2>
+  <form>
+    <div>
+    <input type="radio" id="relchoice1" name="religion" checked />
+    <label for="relchoice1"> Not applicable - born after 31.12.1945 </label>
+  </div>
+  <div>
+    <input type="radio" id="relchoice2" name="religion" />
+    <label for="mechoice2"> Catholic </label>
+    </div>
+      <div>
+    <input type="radio" id="relchoice2" name="religion" />
+    <label for="mechoice2"> Protestant </label>
+    </div>
+      <div>
+    <input type="radio" id="relchoice2" name="religion" />
+    <label for="mechoice2"> Jewish </label>
+    </div>
+  <div class="button">
+                <input type="button" id="df03btn1" value="Next" />
+            </div>
+  </form>
+  </div> `
+
+export var BCDFNAV03B = `
+<div class="questform" id="bcdfnav3a">
+  <h2> If they were born before 31.12.1945 what was their religion at birth</h2>
+  <form>
+    <div>
+    <input type="radio" id="relchoice1" name="religion" checked />
+    <label for="relchoice1"> Not applicable - born after 31.12.1945 </label>
+  </div>
+  <div>
+    <input type="radio" id="relchoice2" name="religion" />
+    <label for="mechoice2"> Catholic </label>
+    </div>
+      <div>
+    <input type="radio" id="relchoice2" name="religion" />
+    <label for="mechoice2"> Protestant </label>
+    </div>
+      <div>
+    <input type="radio" id="relchoice2" name="religion" />
+    <label for="mechoice2"> Jewish </label>
+    </div>
+  <div class="button">
+                <input type="button" id="df03btn1" value="Next" />
+            </div>
+  </form>
+  </div> `
