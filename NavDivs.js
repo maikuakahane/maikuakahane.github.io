@@ -166,11 +166,11 @@ export var BCDFNAV03A = `
     <label for="mechoice2"> Catholic </label>
     </div>
       <div>
-    <input type="radio" id="relchoice2" name="religion" />
+    <input type="radio" id="relchoice3" name="religion" />
     <label for="mechoice2"> Protestant </label>
     </div>
       <div>
-    <input type="radio" id="relchoice2" name="religion" />
+    <input type="radio" id="relchoice4" name="religion" />
     <label for="mechoice2"> Jewish </label>
     </div>
   <div class="button">
@@ -192,11 +192,11 @@ export var BCDFNAV03B = `
     <label for="mechoice2"> Catholic </label>
     </div>
       <div>
-    <input type="radio" id="relchoice2" name="religion" />
+    <input type="radio" id="relchoice3" name="religion" />
     <label for="mechoice2"> Protestant </label>
     </div>
       <div>
-    <input type="radio" id="relchoice2" name="religion" />
+    <input type="radio" id="relchoice4" name="religion" />
     <label for="mechoice2"> Jewish </label>
     </div>
   <div class="button">
