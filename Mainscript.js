@@ -4,7 +4,8 @@ import { BCDFNAV01A } from "./NavDivs.js"
 import { BCDFNAV01B } from "./NavDivs.js"
 import { BCDFNAV02A } from "./NavDivs.js"
 import { BCDFNAV02B } from "./NavDivs.js"
-
+import { BCDFNAV03A } from "./NavDivs.js"
+import { BCDFNAV03B } from "./NavDivs.js"
 
 
 window.onload = function () {
@@ -27,8 +28,8 @@ window.onload = function () {
                 FORMED = false
                 NAVF.innerHTML = BCDFNAV01B
             }
-            let NAV03BTN = document.getElementById("df01btn1")
-            NAV03BTN.onclick = function () {
+            let DF01BTN = document.getElementById("df01btn1")
+            DF01BTN.onclick = function () {
                 let FNAME01 = document.getElementById("Fname01")
                 var FNAME01D = FNAME01.value
                 let CSNAME01 = document.getElementById("Csname01")
@@ -47,8 +48,8 @@ window.onload = function () {
                 else {
                     NAVF.innerHTML = BCDFNAV02B
                 }
-                let NAV04BTN = document.getElementById("df02btn1")
-                NAV04BTN.onclick = function () {
+                let DF02BTN = document.getElementById("df02btn1")
+                DF02BTN.onclick = function () {
                     let FNAME03 = document.getElementById("Fname03")
                     var FNAME03D = FNAME03.value
                     let CSNAME03 = document.getElementById("Csname03")
@@ -61,6 +62,35 @@ window.onload = function () {
                     var CSNAME04D = CSNAME04.value
                     let BSNAME04 = document.getElementById("Bsname04")
                     var BSNAME04D = BSNAME04.value 
+                    if (FORMED == true) {
+                        NAVF.innerHTML = BCDFNAV03A
+                    }
+                    else {
+                        NAVF.innerHTML = BCDFNAV03B
+                    }
+                    let DF03BTN = document.getElementById("df03btn1")
+                    DF03BTN.onclick = function () {
+                        let RELUI = document.getElementsByName("religion")
+                        var RELID
+                        if (RELI[0].checked){
+                            RELID = "Neuvádí se - narození po 31.12.1945 / Not applicable - born after 31.12.1945"
+                        }
+                        else if (RELI[1].checked){
+                            RELID = "Katolické / Catholic"
+                        }
+                        else if (RELI[2].checked){
+                            RELID = "Evangelické / Protestant"
+                        }
+                        else if (REL[3].checked){
+                            RELID = "Židovské / Jewish"
+                        }
+                        if (FORMED == true) {
+                        NAVF.innerHTML = BCDFNAV04A
+                    }
+                        else {
+                        NAVF.innerHTML = BCDFNAV04B
+                    }
+                    }
                 }
             }
         }
