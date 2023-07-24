@@ -70,7 +70,7 @@ window.onload = function () {
                     }
                     let DF03BTN = document.getElementById("df03btn1")
                     DF03BTN.onclick = function () {
-                        let RELUI = document.getElementsByName("religion")
+                        let RELI = document.getElementsByName("religion")
                         var RELID
                         if (RELI[0].checked){
                             RELID = "Neuvádí se - narození po 31.12.1945 / Not applicable - born after 31.12.1945"
@@ -86,10 +86,50 @@ window.onload = function () {
                         }
                         if (FORMED == true) {
                         NAVF.innerHTML = BCDFNAV04A
-                    }
+                        }
                         else {
                         NAVF.innerHTML = BCDFNAV04B
-                    }
+                        }
+                    let.DF04BTN = document.getElementById("df04btn1")
+                        DF04BTN.onclick = function () {
+                        var RELAD
+                            if (FORMED == true) {
+                            NAVF.innerHTML = BCDFNAV05
+                            }
+                            else {
+                            let RELA = document.getElementsByName("relation")
+                            if (RELA[0].checked) {
+                                RELAD = "Dítě / Child"
+                            }
+                            else if (RELA[1].checked) {
+                                RELAD = "Rodič / Parent"
+                            }
+                            else if (RELA[2].checked) {
+                                RELAD = "Vnouče / Grandchild"
+                            }
+                            else if (RELA[3].checked) {
+                                RELAD = "Praodič / Grandparent"
+                            }    
+                            else if (RELA[4].checked) {
+                                RELAD = "Potomek v přímé linii / Descenant in direct line"
+                            }
+                            else if (RELA[5].checked) {
+                                RELAD = "Manžel/ka / Spouse"
+                            }
+                            else if (RELA[6].checked) {
+                                RELAD = "Sourozenec / Sibling"
+                            }
+                            else if (RELA[7].checked) {
+                                RELAD = "Zplnomocněný zástupce / Authorized person"
+                            }
+                                NAVF.innerHTML = BCDFNAV05
+                            }
+                        let.DF05BTN = document.getElementById("df05btn1")
+                            DF05BTN.onclick = function () {
+                                let PADD01 = document.getElementById("Padd01")
+                                var PADD01D = PADD01.value
+                            }
+                        }
                     }
                 }
             }
