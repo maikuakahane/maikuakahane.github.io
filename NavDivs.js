@@ -120,27 +120,27 @@ export var BCDFNAV02A = `
     </div> `
 
 export var BCDFNAV02B = `
-<div class="questform" id="bcdfnav2a">
+<div class="questform" id="bcdfnav2b">
         <h2>Details of  parents of the person you are applying for</h2>
         <form>
             <div>
-                <label> Your mother\'s first and middle names: </label>
+                <label> Their mother\'s first and middle names: </label>
                 <input type="text" id="Fname03">
             </div>
             <div>
-                <label> Your mother\'s current surname: </label>
+                <label> Their mother\'s current surname: </label>
                 <input type="text" id="Csname03">
             </div>
             <div>
-                <label> Your mother\'s surname at birth: </label>
+                <label> Their mother\'s surname at birth: </label>
                 <input type="text" id="Bsname03">
             </div>
             <div>
-                <label> Your father\'s first and middle names: </label>
+                <label> Their father\'s first and middle names: </label>
                 <input type="text" id="Fname04">
             </div>
             <div>
-                <label> Your father\'s current surname: </label>
+                <label> Their father\'s current surname: </label>
                 <input type="text" id="Csname04">
             </div>
             <div>
@@ -180,7 +180,7 @@ export var BCDFNAV03A = `
   </div> `
 
 export var BCDFNAV03B = `
-<div class="questform" id="bcdfnav3a">
+<div class="questform" id="bcdfnav3b">
   <h2> If they were born before 31.12.1945 what was their religion at birth</h2>
   <form>
     <div>
@@ -204,3 +204,71 @@ export var BCDFNAV03B = `
             </div>
   </form>
   </div> `
+
+export var BCDFNAV04B = `
+<div class="questform" id="bcdfnav4b">
+  <h2> What is your relation to the person you are applying for? </h2>
+   <form>
+   <div> You have already indicated you are applying for yourself</div>
+<div class="button">
+<input type="button" id="df04btn1" value="Next" />
+  </div>
+  </form>
+  </div> `
+export var BCDFNAV04B = `
+<div class="questform" id="bcdfnav4b">
+  <h2> What is your relation to the person you are applying for ? </h2>
+  <form>
+    <div>
+    <input type="radio" id="relachoice1" name="relation" checked />
+    <label for="relchoice1"> I am their child </label>
+  </div>
+  <div>
+    <input type="radio" id="relachoice2" name="relation" />
+    <label for="mechoice2"> I am their parent </label>
+    </div>
+      <div>
+    <input type="radio" id="relachoice3" name="relation" />
+    <label for="mechoice2"> I am their granchild </label>
+    </div>
+      <div>
+    <input type="radio" id="relachoice4" name="relation" />
+    <label for="mechoice2"> I am their grandparent </label>
+    </div>
+          <div>
+    <input type="radio" id="relachoice5" name="relation" />
+    <label for="mechoice2"> I am their descenant in direct line </label>
+    </div>
+          <div>
+    <input type="radio" id="relachoice6" name="relation" />
+    <label for="mechoice2"> I am their spouse </label>
+    </div>
+          <div>
+    <input type="radio" id="relachoice7" name="relation" />
+    <label for="mechoice2"> I am their sibling </label>
+    </div>
+    <div>
+    <input type="radio" id="relachoice8" name="relation" />
+    <label for="mechoice2"> I am authorized person who can apply </label>
+    </div>
+  <div class="button">
+                <input type="button" id="df04btn1" value="Next" />
+            </div>
+  </form>
+  </div> `
+
+export var BCDFNAV05 = `
+<div class="questform" id="bcdfnav5">
+  <h2> Further details about you</h2>
+  <form>
+               <div>
+                <label> What is your postal address: </label>
+                <input type="text" id="Padd01">
+            </div>
+            <div class="button">
+                <input type="button" id="df05btn1" value="Next" />
+            </div>
+  </form>
+  </div> `
+
+
