@@ -103,15 +103,15 @@ export var BCDFNAV02A = `
             </div>
             <div>
                 <label> Your father\'s first and middle names: </label>
-                <input type="text" id="Fname03">
+                <input type="text" id="Fname04">
             </div>
             <div>
                 <label> Your father\'s current surname: </label>
-                <input type="text" id="Csname03">
+                <input type="text" id="Csname04">
             </div>
             <div>
                 <label> Your father\'s surname at birth: </label>
-                <input type="text" id="Bsname03">
+                <input type="text" id="Bsname04">
             </div>
             <div class="button">
                 <input type="button" id="df02btn1" value="Next" />
@@ -163,15 +163,15 @@ export var BCDFNAV03A = `
   </div>
   <div>
     <input type="radio" id="relchoice2" name="religion" />
-    <label for="mechoice2"> Catholic </label>
+    <label for="relchoice2"> Catholic </label>
     </div>
       <div>
     <input type="radio" id="relchoice3" name="religion" />
-    <label for="mechoice2"> Protestant </label>
+    <label for="relchoice3"> Protestant </label>
     </div>
       <div>
     <input type="radio" id="relchoice4" name="religion" />
-    <label for="mechoice2"> Jewish </label>
+    <label for="relchoice4"> Jewish </label>
     </div>
   <div class="button">
                 <input type="button" id="df03btn1" value="Next" />
@@ -189,15 +189,15 @@ export var BCDFNAV03B = `
   </div>
   <div>
     <input type="radio" id="relchoice2" name="religion" />
-    <label for="mechoice2"> Catholic </label>
+    <label for="relchoice2"> Catholic </label>
     </div>
       <div>
     <input type="radio" id="relchoice3" name="religion" />
-    <label for="mechoice2"> Protestant </label>
+    <label for="relchoice3"> Protestant </label>
     </div>
       <div>
     <input type="radio" id="relchoice4" name="religion" />
-    <label for="mechoice2"> Jewish </label>
+    <label for="relchoice4"> Jewish </label>
     </div>
   <div class="button">
                 <input type="button" id="df03btn1" value="Next" />
@@ -205,7 +205,7 @@ export var BCDFNAV03B = `
   </form>
   </div> `
 
-export var BCDFNAV04B = `
+export var BCDFNAV04A = `
 <div class="questform" id="bcdfnav4b">
   <h2> What is your relation to the person you are applying for? </h2>
    <form>
@@ -221,35 +221,35 @@ export var BCDFNAV04B = `
   <form>
     <div>
     <input type="radio" id="relachoice1" name="relation" checked />
-    <label for="relchoice1"> I am their child </label>
+    <label for="relachoice1"> I am their child </label>
   </div>
   <div>
     <input type="radio" id="relachoice2" name="relation" />
-    <label for="mechoice2"> I am their parent </label>
+    <label for="relachoice2"> I am their parent </label>
     </div>
       <div>
     <input type="radio" id="relachoice3" name="relation" />
-    <label for="mechoice2"> I am their granchild </label>
+    <label for="relachoice3"> I am their granchild </label>
     </div>
       <div>
     <input type="radio" id="relachoice4" name="relation" />
-    <label for="mechoice2"> I am their grandparent </label>
+    <label for="relachoice4"> I am their grandparent </label>
     </div>
           <div>
     <input type="radio" id="relachoice5" name="relation" />
-    <label for="mechoice2"> I am their descenant in direct line </label>
+    <label for="relachoice5"> I am their descenant in direct line </label>
     </div>
           <div>
     <input type="radio" id="relachoice6" name="relation" />
-    <label for="mechoice2"> I am their spouse </label>
+    <label for="relachoice6"> I am their spouse </label>
     </div>
           <div>
     <input type="radio" id="relachoice7" name="relation" />
-    <label for="mechoice2"> I am their sibling </label>
+    <label for="relachoice7"> I am their sibling </label>
     </div>
     <div>
     <input type="radio" id="relachoice8" name="relation" />
-    <label for="mechoice2"> I am authorized person who can apply </label>
+    <label for="relachoice8"> I am authorized person who can apply </label>
     </div>
   <div class="button">
                 <input type="button" id="df04btn1" value="Next" />

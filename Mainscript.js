@@ -6,7 +6,9 @@ import { BCDFNAV02A } from "./NavDivs.js"
 import { BCDFNAV02B } from "./NavDivs.js"
 import { BCDFNAV03A } from "./NavDivs.js"
 import { BCDFNAV03B } from "./NavDivs.js"
-
+import { BCDFNAV04A } from "./NavDivs.js"
+import { BCDFNAV04B } from "./NavDivs.js"
+import { BCDFNAV05 } from "./NavDivs.js"
 
 window.onload = function () {
     let BCBTN = document.getElementById("bcbtn_en")
@@ -57,11 +59,11 @@ window.onload = function () {
                     let BSNAME03 = document.getElementById("Bsname03")
                     var BSNAME03D = BSNAME03.value
                     let FNAME04 = document.getElementById("Fname04")
-                    var FNAME04D = FNAME04.value 
+                    var FNAME04D = FNAME04.value
                     let CSNAME04 = document.getElementById("Csname04")
                     var CSNAME04D = CSNAME04.value
                     let BSNAME04 = document.getElementById("Bsname04")
-                    var BSNAME04D = BSNAME04.value 
+                    var BSNAME04D = BSNAME04.value
                     if (FORMED == true) {
                         NAVF.innerHTML = BCDFNAV03A
                     }
@@ -72,63 +74,64 @@ window.onload = function () {
                     DF03BTN.onclick = function () {
                         let RELI = document.getElementsByName("religion")
                         var RELID
-                        if (RELI[0].checked){
+                        if (RELI[0].checked) {
                             RELID = "Neuvádí se - narození po 31.12.1945 / Not applicable - born after 31.12.1945"
                         }
-                        else if (RELI[1].checked){
+                        else if (RELI[1].checked) {
                             RELID = "Katolické / Catholic"
                         }
-                        else if (RELI[2].checked){
+                        else if (RELI[2].checked) {
                             RELID = "Evangelické / Protestant"
                         }
-                        else if (REL[3].checked){
+                        else if (REL[3].checked) {
                             RELID = "Židovské / Jewish"
                         }
                         if (FORMED == true) {
-                        NAVF.innerHTML = BCDFNAV04A
+                            NAVF.innerHTML = BCDFNAV04A
                         }
                         else {
-                        NAVF.innerHTML = BCDFNAV04B
+                            NAVF.innerHTML = BCDFNAV04B
                         }
-                    let.DF04BTN = document.getElementById("df04btn1")
+                        let DF04BTN = document.getElementById("df04btn1")
                         DF04BTN.onclick = function () {
-                        var RELAD
+                            var RELAD
                             if (FORMED == true) {
-                            NAVF.innerHTML = BCDFNAV05
-                            }
-                            else {
-                            let RELA = document.getElementsByName("relation")
-                            if (RELA[0].checked) {
-                                RELAD = "Dítě / Child"
-                            }
-                            else if (RELA[1].checked) {
-                                RELAD = "Rodič / Parent"
-                            }
-                            else if (RELA[2].checked) {
-                                RELAD = "Vnouče / Grandchild"
-                            }
-                            else if (RELA[3].checked) {
-                                RELAD = "Praodič / Grandparent"
-                            }    
-                            else if (RELA[4].checked) {
-                                RELAD = "Potomek v přímé linii / Descenant in direct line"
-                            }
-                            else if (RELA[5].checked) {
-                                RELAD = "Manžel/ka / Spouse"
-                            }
-                            else if (RELA[6].checked) {
-                                RELAD = "Sourozenec / Sibling"
-                            }
-                            else if (RELA[7].checked) {
-                                RELAD = "Zplnomocněný zástupce / Authorized person"
-                            }
                                 NAVF.innerHTML = BCDFNAV05
                             }
-                        let.DF05BTN = document.getElementById("df05btn1")
+                            else {
+                                let RELA = document.getElementsByName("relation")
+                                if (RELA[0].checked) {
+                                    RELAD = "Dítě / Child"
+                                }
+                                else if (RELA[1].checked) {
+                                    RELAD = "Rodič / Parent"
+                                }
+                                else if (RELA[2].checked) {
+                                    RELAD = "Vnouče / Grandchild"
+                                }
+                                else if (RELA[3].checked) {
+                                    RELAD = "Praodič / Grandparent"
+                                }
+                                else if (RELA[4].checked) {
+                                    RELAD = "Potomek v přímé linii / Descenant in direct line"
+                                }
+                                else if (RELA[5].checked) {
+                                    RELAD = "Manžel/ka / Spouse"
+                                }
+                                else if (RELA[6].checked) {
+                                    RELAD = "Sourozenec / Sibling"
+                                }
+                                else if (RELA[7].checked) {
+                                    RELAD = "Zplnomocněný zástupce / Authorized person"
+                                }
+                                NAVF.innerHTML = BCDFNAV05
+                            }
+                            let DF05BTN = document.getElementById("df05btn1")
                             DF05BTN.onclick = function () {
                                 let PADD01 = document.getElementById("Padd01")
                                 var PADD01D = PADD01.value
                             }
+                         
                         }
                     }
                 }
