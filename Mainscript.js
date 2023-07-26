@@ -8,7 +8,10 @@ import { BCDFNAV03A } from "./NavDivs.js"
 import { BCDFNAV03B } from "./NavDivs.js"
 import { BCDFNAV04A } from "./NavDivs.js"
 import { BCDFNAV04B } from "./NavDivs.js"
-import { BCDFNAV05 } from "./NavDivs.js"
+import { BCDFNAV05A } from "./NavDivs.js"
+import { BCDFNAV05B } from "./NavDivs.js"
+import { BCDFNAV06A } from "./NavDivs.js"
+import { BCDFNAV06B } from "./NavDivs.js"
 
 window.onload = function () {
     let BCBTN = document.getElementById("bcbtn_en")
@@ -96,7 +99,8 @@ window.onload = function () {
                         DF04BTN.onclick = function () {
                             var RELAD
                             if (FORMED == true) {
-                                NAVF.innerHTML = BCDFNAV05
+                                NAVF.innerHTML = BCDFNAV05A
+                                RELAD = "N/A" 
                             }
                             else {
                                 let RELA = document.getElementsByName("relation")
@@ -124,12 +128,27 @@ window.onload = function () {
                                 else if (RELA[7].checked) {
                                     RELAD = "Zplnomocněný zástupce / Authorized person"
                                 }
-                                NAVF.innerHTML = BCDFNAV05
+                                NAVF.innerHTML = BCDFNAV05B
                             }
                             let DF05BTN = document.getElementById("df05btn1")
                             DF05BTN.onclick = function () {
                                 let PADD01 = document.getElementById("Padd01")
                                 var PADD01D = PADD01.value
+                                var FNAME05D
+                                var CSNAME05D
+                            if (FORMED == true) {
+                                NAVF.innerHTML = BCDFNAV06A
+                                FNAME05D = "N/A"
+                                CSNAME05D = "N/A" 
+                            }
+                            else {
+                                let FNAME05 = document.getElementById("Fname05")
+                                FNAME05D = FNAME05.value
+                                let CSNAME05 = document.getElementById("Csname05")
+                                CSNAME05D = CSNAME05.value
+                                 NAVF.innerHTML = BCDFNAV06B
+                            }
+                                
                             }
                          
                         }
