@@ -206,7 +206,7 @@ export var BCDFNAV03B = `
   </div> `
 
 export var BCDFNAV04A = `
-<div class="questform" id="bcdfnav4b">
+<div class="questform" id="bcdfnav4a">
   <h2> What is your relation to the person you are applying for? </h2>
    <form>
    <div> You have already indicated you are applying for yourself</div>
@@ -257,8 +257,8 @@ export var BCDFNAV04B = `
   </form>
   </div> `
 
-export var BCDFNAV05 = `
-<div class="questform" id="bcdfnav5">
+export var BCDFNAV05A = `
+<div class="questform" id="bcdfnav5a">
   <h2> Further details about you</h2>
   <form>
                <div>
@@ -271,4 +271,168 @@ export var BCDFNAV05 = `
   </form>
   </div> `
 
+export var BCDFNAV05B = `
+<div class="questform" id="bcdfnav5b">
+  <h2> Further details about you</h2>
+  <form>
+  <div>
+                <label> What are your first and middle names: </label>
+                <input type="text" id="Fname05">
+            </div>
+            <div>
+                <label> What is your current surname: </label>
+                <input type="text" id="Csname05">
+            </div>
+               <div>
+                <label> What is your postal address: </label>
+                <input type="text" id="Padd01">
+            </div>
+            <div class="button">
+                <input type="button" id="df05btn1" value="Next" />
+            </div>
+  </form>
+  </div> `
 
+export var BCDFNAV06A = `
+<div class="questform" id="bcdfnav6a">
+  <h2> Summary of details </h2>
+  <table>
+  <tr>
+  <td> Your first and middle names: </td>
+  <td id="SFname01"> </td>
+  </tr>
+    <tr>
+  <td> Your current surname: </td>
+  <td id="SCsname01"> </td>
+  </tr>
+    <tr>
+  <td> Your surname at birth: </td>
+  <td id="SBsname01"> </td>
+  </tr>
+      <tr>
+  <td> Date of your birth: </td>
+  <td id="SDob01"> </td>
+  </tr>
+      <tr>
+  <td> Place of your birth (town): </td>
+  <td id="SPob01"> </td>
+  </tr>
+      <tr>
+  <td> Country of your birth: </td>
+  <td id="SCob01"> </td>
+  </tr>
+      <tr>
+  <td> Your mother\'s first and middle names: </td>
+  <td id="SFname03"> </td>
+  </tr>
+      <tr>
+  <td> Your mother\'s current surname: </td>
+  <td id="SCsname03"> </td>
+  </tr>
+        <tr>
+  <td> Your mother\'s surname at birth: </td>
+  <td id="SBsname03"> </td>
+  </tr>
+        <tr>
+  <td> Your father\'s first and middle names: </td>
+  <td id="SFname04"> </td>
+  </tr>
+      <tr>
+  <td> Your father\'s current surname: </td>
+  <td id="SCsname04"> </td>
+  </tr>
+        <tr>
+  <td>Your father\'s surname at birth:</td>
+  <td id="SBsname04"> </td>
+  </tr>
+        <tr>
+  <td>Religion</td>
+  <td id="Sreligion"> </td>
+  </tr>
+        <tr>
+  <td>Relation</td>
+  <td id="Srelation"> </td>
+  </tr>
+      <tr>
+  <td>Your address</td>
+  <td id="SPadd01"> </td>
+  </tr>
+  </table>
+   <form>
+<div class="button">
+<input type="button" id="df06btn1" value="Next" />
+  </div>
+  </form>
+  </div> `
+
+export var BCDFNAV06B = `
+<div class="questform" id="bcdfnav6b">
+  <h2> Summary of details </h2>
+  <table>
+  <tr>
+  <td> Your first and middle names: </td>
+  <td id="SFname01"> </td>
+  </tr>
+    <tr>
+  <td> Your current surname: </td>
+  <td id="SCsname01"> </td>
+  </tr>
+    <tr>
+  <td> Your surname at birth: </td>
+  <td id="SBsname01"> </td>
+  </tr>
+      <tr>
+  <td> Date of your birth: </td>
+  <td id="SDob01"> </td>
+  </tr>
+      <tr>
+  <td> Place of your birth (town): </td>
+  <td id="SPob01"> </td>
+  </tr>
+      <tr>
+  <td> Country of your birth: </td>
+  <td id="SCob01"> </td>
+  </tr>
+      <tr>
+  <td> Your mother\'s first and middle names: </td>
+  <td id="SFname03"> </td>
+  </tr>
+      <tr>
+  <td> Your mother\'s current surname: </td>
+  <td id="SCsname03"> </td>
+  </tr>
+        <tr>
+  <td> Your mother\'s surname at birth: </td>
+  <td id="SBsname03"> </td>
+  </tr>
+        <tr>
+  <td> Your father\'s first and middle names: </td>
+  <td id="SFname04"> </td>
+  </tr>
+      <tr>
+  <td> Your father\'s current surname: </td>
+  <td id="SCsname04"> </td>
+  </tr>
+        <tr>
+  <td>Your father\'s surname at birth:</td>
+  <td id="SBsname04"> </td>
+  </tr>
+        <tr>
+  <td>Religion</td>
+  <td id="Sreligion"> </td>
+  </tr>
+        <tr>
+  <td>Relation</td>
+  <td id="Srelation"> </td>
+  </tr>
+      <tr>
+  <td>Your address</td>
+  <td id="SPadd01"> </td>
+  </tr>
+  </table>
+   <form>
+<div class="button">
+<input type="button" id="df06btn1" value="Next" />
+  </div>
+  </form>
+  </div> `
