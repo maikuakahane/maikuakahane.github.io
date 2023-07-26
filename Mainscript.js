@@ -12,6 +12,8 @@ import { BCDFNAV05A } from "./NavDivs.js"
 import { BCDFNAV05B } from "./NavDivs.js"
 import { BCDFNAV06A } from "./NavDivs.js"
 import { BCDFNAV06B } from "./NavDivs.js"
+import { BCDPRINTA } from "./PrintDivs.js"
+import { BCDPRINTB } from "./PrintDivs.js"
 
 window.onload = function () {
     let BCBTN = document.getElementById("bcbtn_en")
@@ -138,17 +140,93 @@ window.onload = function () {
                                 var CSNAME05D
                             if (FORMED == true) {
                                 NAVF.innerHTML = BCDFNAV06A
-                                FNAME05D = "N/A"
-                                CSNAME05D = "N/A" 
+                                FNAME05D = FNAME01D
+                                CSNAME05D = CSNAME01D
+                                let SFNAME01 = document.getElementById("SFname01")
+                                SFNAME01.innerHTML = FNAME01D
+                                let SCSNAME01 = document.getElementById("SCsname01")
+                                SCSNAME01.innerHTML = CSNAME01D
+                                let SBSNAME01 = document.getElementById("SBsname01")
+                                SBSNAME01.innerHTML = BSNAME01D
+                                let SDOB01 = document.getElementById("SDob01")
+                                SDOB01.innerHTML = DOB01D
+                                let SPOB01 = document.getElementById("SPob01")
+                                SPOB01.innerHTML = POB01D
+                                let SCOB01 = document.getElementById("SCob01")
+                                SCOB01.innerHTML = COB01D
+                                let SFNAME03 = document.getElementById("SFname03")
+                                SFNAME03.innerHTML = FNAME03D
+                                let SCSNAME03 = document.getElementById("SCsname03")
+                                SCSNAME03.innerHTML = CSNAME03D
+                                let SBSNAME03 = document.getElementById("SBsname03")
+                                SBSNAME03.innerHTML = BSNAME03D
+                                let SFNAME04 = document.getElementById("SFname04")
+                                SFNAME04.innerHTML = FNAME01D
+                                let SCSNAME04 = document.getElementById("SCsname04")
+                                SCSNAME04.innerHTML = CSNAME04D
+                                let SBSNAME04 = document.getElementById("SBsname04")
+                                SBSNAME04.innerHTML = BSNAME04D
+                                let SRELI = document.getElementById("SReli")
+                                SRELI.innerHTML = RELID
+                                let SRELA = document.getElementById("SRela")
+                                SRELA.innerHTML = RELAD
+                                let SPADD01 = document.getElementById("SPadd01")
+                                SPADD01.innerHTML = PADD01D
+                                let SFNAME05 = document.getElementById("SFname05")
+                                SFNAME05.innerHTML = FNAME05D
+                                let SCSNAME05 = document.getElementById("SCsname05")
+                                SCSNAME05.innerHTML = CSNAME05D
                             }
                             else {
                                 let FNAME05 = document.getElementById("Fname05")
                                 FNAME05D = FNAME05.value
                                 let CSNAME05 = document.getElementById("Csname05")
                                 CSNAME05D = CSNAME05.value
-                                 NAVF.innerHTML = BCDFNAV06B
+                                NAVF.innerHTML = BCDFNAV06B
+                                let SFNAME01 = document.getElementById("SFname01")
+                                SFNAME01.innerHTML = FNAME01D
+                                let SCSNAME01 = document.getElementById("SCsname01")
+                                SCSNAME01.innerHTML = CSNAME01D
+                                let SBSNAME01 = document.getElementById("SBsname01")
+                                SBSNAME01.innerHTML = BSNAME01D
+                                let SDOB01 = document.getElementById("SDob01")
+                                SDOB01.innerHTML = DOB01D
+                                let SPOB01 = document.getElementById("SPob01")
+                                SPOB01.innerHTML = POB01D
+                                let SCOB01 = document.getElementById("SCob01")
+                                SCOB01.innerHTML = COB01D
+                                let SFNAME03 = document.getElementById("SFname03")
+                                SFNAME03.innerHTML = FNAME03D
+                                let SCSNAME03 = document.getElementById("SCsname03")
+                                SCSNAME03.innerHTML = CSNAME03D
+                                let SBSNAME03 = document.getElementById("SBsname03")
+                                SBSNAME03.innerHTML = BSNAME03D
+                                let SFNAME04 = document.getElementById("SFname04")
+                                SFNAME04.innerHTML = FNAME01D
+                                let SCSNAME04 = document.getElementById("SCsname04")
+                                SCSNAME04.innerHTML = CSNAME04D
+                                let SBSNAME04 = document.getElementById("SBsname04")
+                                SBSNAME04.innerHTML = BSNAME04D
+                                let SRELI = document.getElementById("SReli")
+                                SRELI.innerHTML = RELID
+                                let SRELA = document.getElementById("SRela")
+                                SRELA.innerHTML = RELAD
+                                let SPADD01 = document.getElementById("SPadd01")
+                                SPADD01.innerHTML = PADD01D
+                                let SFNAME05 = document.getElementById("SFname05")
+                                SFNAME05.innerHTML = FNAME05D
+                                let SCSNAME05 = document.getElementById("SCsname05")
+                                SCSNAME05.innerHTML = CSNAME05D
                             }
-                                
+                                let DF06BTN = document.getElementById("df06btn1")
+                                DF06BTN.onclick = function () {
+                                    if (FORMED == true) {
+                                        NAVF.innerHTML = BCDPRINTA
+                                    }
+                                    else {
+                                        NAVF.innerHTML = BCDPRINTB
+                                    }
+                                }
                             }
                          
                         }

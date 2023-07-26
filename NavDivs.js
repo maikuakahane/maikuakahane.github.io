@@ -347,15 +347,23 @@ export var BCDFNAV06A = `
   </tr>
         <tr>
   <td>Religion</td>
-  <td id="Sreligion"> </td>
+  <td id="SReli"> </td>
   </tr>
         <tr>
   <td>Relation</td>
-  <td id="Srelation"> </td>
+  <td id="SRela"> </td>
   </tr>
       <tr>
   <td>Your address</td>
   <td id="SPadd01"> </td>
+  </tr>
+  <tr>
+  <td> Applicant\'s first and middle names</td>
+  <td id="SFname05"> </td>
+  </tr>
+  <tr>
+  <td>Applicant\'s current surname </td>
+  <td id="SCsname05"> </td>
   </tr>
   </table>
    <form>
@@ -419,15 +427,23 @@ export var BCDFNAV06B = `
   </tr>
         <tr>
   <td>Religion</td>
-  <td id="Sreligion"> </td>
+  <td id="SReli"> </td>
   </tr>
         <tr>
   <td>Relation</td>
-  <td id="Srelation"> </td>
+  <td id="SRela"> </td>
   </tr>
       <tr>
   <td>Your address</td>
   <td id="SPadd01"> </td>
+  </tr>
+  <tr>
+  <td> Applicant\'s first and middle names</td>
+  <td id="SFname05"> </td>
+  </tr>
+  <tr>
+  <td>Applicant\'s current surname </td>
+  <td id="SCsname05"> </td>
   </tr>
   </table>
    <form>
