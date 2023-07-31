@@ -303,4 +303,10 @@ window.onload = function () {
             }
         }
     }
+    MCBTN.onclick = function () {
+        
+    }
+    DCBTN.onclick = function () {
+        
+    }
 }
