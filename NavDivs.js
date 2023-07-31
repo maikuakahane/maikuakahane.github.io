@@ -452,3 +452,176 @@ export var BCDFNAV06B = `
   </div>
   </form>
   </div> `
+
+export var MCQFNAV02 = `
+<div class="questform" id="mcqfnav02">
+  <h2> Whose certificate you are requesting?</h2>
+  <form>
+    <div>
+    <input type="radio" id="mechoice1" name="forme" checked />
+    <label for="mechoice1"> For myself </label>
+  </div>
+  <div></div>
+    <input type="radio" id="mechoice2" name="forme" />
+    <label for="mechoice2"> For someone else </label>
+    </div>
+  <div class="button">
+                <input type="button" id="nav02btn" value="Next" />
+            </div>
+  </form>
+</div> `
+
+export var MCDFNAV01A = `
+<div class="questform" id="mcdfnav1a">
+        <h2>Your details</h2>
+        <form>
+            <div>
+                <label> Your first and middle names: </label>
+                <input type="text" id="Fname01">
+            </div>
+            <div>
+                <label> Your current surname: </label>
+                <input type="text" id="Csname01">
+            </div>
+            <div>
+                <label> Your surname at birth: </label>
+                <input type="text" id="Bsname01">
+            </div>
+             <div>
+                <label>Date of your birth: </label>
+                <input type="date" id="Dob01">
+            </div>
+            <div>
+                <label>Place of your birth (town): </label>
+                <input type="text" id="Pob01">
+            </div>
+            <div>
+                <label>Country of your birth</label>
+                <input type="text" id="Cob01">
+            </div>
+            <div class="button">
+                <input type="button" id="df01btn1" value="Next" />
+            </div>
+        </form>
+    </div> `
+
+export var MCDFNAV01B = `
+<div class="questform" id="mcdfnav1b">
+        <h2>Details of the person you are applying for</h2>
+        <form>
+            <div>
+                <label> Their first and middle names: </label>
+                <input type="text" id="Fname01">
+            </div>
+            <div>
+                <label> Their current surname: </label>
+                <input type="text" id="Csname01">
+            </div>
+            <div>
+                <label> Their surname at birth: </label>
+                <input type="text" id="Bsname01">
+            </div>
+             <div>
+                <label>Date of their birth: </label>
+                <input type="date" id="Dob01">
+            </div>
+            <div>
+                <label>Place of their birth (town): </label>
+                <input type="text" id="Pob01">
+            </div>
+            <div>
+                <label>Country of their birth</label>
+                <input type="text" id="Cob01">
+            </div>
+            <div class="button">
+                <input type="button" id="df01btn1" value="Next" />
+            </div>
+        </form>
+    </div> `
+
+export var MCDFNAV02A = `
+<div class="questform" id="mcdfnav2a">
+        <h2>Details of your spouse</h2>
+        <form>
+            <div>
+                <label> Their first and middle names: </label>
+                <input type="text" id="Fname02">
+            </div>
+            <div>
+                <label> Their current surname: </label>
+                <input type="text" id="Csname02">
+            </div>
+            <div>
+                <label> Their surname at birth: </label>
+                <input type="text" id="Bsname02">
+            </div>
+             <div>
+                <label>Date of their birth: </label>
+                <input type="date" id="Dob02">
+            </div>
+            <div>
+                <label>Place of their birth (town): </label>
+                <input type="text" id="Pob02">
+            </div>
+            <div>
+                <label>Country of their birth</label>
+                <input type="text" id="Cob02">
+            </div>
+            <div class="button">
+                <input type="button" id="df02btn1" value="Next" />
+            </div>
+        </form>
+    </div> `
+
+export var MCDFNAV02B = `
+<div class="questform" id="mcdfnav2b">
+        <h2>Details of their spouse</h2>
+        <form>
+            <div>
+                <label> Their spouse\'s first and middle names: </label>
+                <input type="text" id="Fname02">
+            </div>
+            <div>
+                <label> Their spouse\'s current surname: </label>
+                <input type="text" id="Csname02">
+            </div>
+            <div>
+                <label> Their spouse\'s surname at birth: </label>
+                <input type="text" id="Bsname02">
+            </div>
+             <div>
+                <label>Date of their spouse\'s birth: </label>
+                <input type="date" id="Dob02">
+            </div>
+            <div>
+                <label>Place of their spouse\'s birth (town): </label>
+                <input type="text" id="Pob02">
+            </div>
+            <div>
+                <label>Country of their spouse\'s birth</label>
+                <input type="text" id="Cob02">
+            </div>
+            <div class="button">
+                <input type="button" id="df02btn1" value="Next" />
+            </div>
+        </form>
+    </div> `
+
+export var MCDFNAV03A = `
+<div class="questform" id="mcdfnav3a">
+        <h2>Details of your marriage</h2>
+        <form>
+             <div>
+                <label>Date of your marriage: </label>
+                <input type="date" id="Dom01">
+            </div>
+            <div>
+                <label>Place of your marriage (town): </label>
+                <input type="text" id="Pom01">
+            </div>
+                        <div>
+                <label>Country of your marriage</label>
+                <input type="text" id="Com01">
+            </div>
+        </form>
+    </div> `
