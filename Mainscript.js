@@ -14,6 +14,27 @@ import { BCDFNAV06A } from "./NavDivs.js"
 import { BCDFNAV06B } from "./NavDivs.js"
 import { BCDPRINTA } from "./PrintDivs.js"
 import { BCDPRINTB } from "./PrintDivs.js"
+import { MCQFNAV02 } from "./NavDivs.js"
+import { MCDFNAV01A } from "./NavDivs.js"
+import { MCDFNAV01B } from "./NavDivs.js"
+import { MCDFNAV02A } from "./NavDivs.js"
+import { MCDFNAV02B } from "./NavDivs.js"
+import { MCDFNAV03A } from "./NavDivs.js"
+import { MCDFNAV03B } from "./NavDivs.js"
+import { MCDFNAV04A } from "./NavDivs.js"
+import { MCDFNAV04B } from "./NavDivs.js"
+import { MCDFNAV05A } from "./NavDivs.js"
+import { MCDFNAV05B } from "./NavDivs.js"
+import { MCDFNAV06A } from "./NavDivs.js"
+import { MCDFNAV06B } from "./NavDivs.js"
+import { MCDFNAV07A } from "./NavDivs.js"
+import { MCDFNAV07B } from "./NavDivs.js"
+import { DCDFNAV01A } from "./NavDivs.js"
+import { DCDFNAV02A } from "./NavDivs.js"
+import { DCDFNAV03A } from "./NavDivs.js"
+import { DCDFNAV04A } from "./NavDivs.js"
+import { DCDFNAV05A } from "./NavDivs.js"
+import { DCDFNAV06A } from "./NavDivs.js"
 
 window.onload = function () {
     let BCBTN = document.getElementById("bcbtn_en")
@@ -304,7 +325,140 @@ window.onload = function () {
         }
     }
     MCBTN.onclick = function () {
-        
+        NAVF.innerHTML = MCQFNAV02
+        let NAV02BTN = document.getElementById("nav02btn")
+        NAV02BTN.onclick = function () {
+            let FORME = document.getElementsByName("forme")
+            var FORMED
+            if (FORME[0].checked) {
+                FORMED = true
+                NAVF.innerHTML = MCDFNAV01A
+            }
+            else {
+                FORMED = false
+                NAVF.innerHTML = MCDFNAV01B
+            }
+            let DF01BTN = document.getElementById("df01btn1")
+                DF01BTN.onclick = function () {
+                let FNAME01 = document.getElementById("Fname01")
+                var FNAME01D = FNAME01.value
+                let CSNAME01 = document.getElementById("Csname01")
+                var CSNAME01D = CSNAME01.value
+                let BSNAME01 = document.getElementById("Bsname01")
+                var BSNAME01D = BSNAME01.value
+                let DOB01 = document.getElementById("Dob01")
+                var DOB01D = DOB01.value
+                let POB01 = document.getElementById("Pob01")
+                var POB01D = POB01.value
+                let COB01 = document.getElementById("Cob01")
+                var COB01D = COB01.value
+                if (FORMED == true) {
+                    NAVF.innerHTML = MCDFNAV02A
+                }
+                else {
+                    NAVF.innerHTML = MCDFNAV02B 
+                }
+                let DF02BTN = document.getElementById("df02btn1")
+                    DF02BTN.onclick = function () {
+                    let FNAME02 = document.getElementById("Fname02")
+                    var FNAME02D = FNAME02.value
+                    let CSNAME02 = document.getElementById("Csname02")
+                    var CSNAME02D = CSNAME02.value
+                    let BSNAME02 = document.getElementById("Bsname02")
+                    var BSNAME02D = BSNAME02.value
+                    let DOB02 = document.getElementById("Dob02")
+                    var DOB02D = DOB02.value
+                    let POB02 = document.getElementById("Pob02")
+                    var POB02D = POB02.value
+                    let COB02 = document.getElementById("Cob02")
+                    var COB02D = COB02.value  
+                    if (FORMED == true) {
+                    NAVF.innerHTML = MCDFNAV03A
+                    }
+                    else {
+                    NAVF.innerHTML = MCDFNAV03B 
+                    }
+                    let DF03BTN = document.getElementById("df03btn1")
+                        DF03BTN.onclick = function () {
+                        let DOM01 = document.getElementById("Dom01")
+                        var DOM01D = DOM01.value
+                        let POM01 = document.getElementById("Pom01")
+                        var POM01D = POM01.value
+                        let COM01 = document.getElementById("Com01")
+                        var COM01D = COM01.value
+                        if (FORMED == true) {
+                        NAVF.innerHTML = MCDFNAV04A
+                        }
+                        else {
+                        NAVF.innerHTML = MCDFNAV04B 
+                        }
+                        let DF04BTN = document.getElementById("df04btn1")
+                            DF04BTN.onclick = function () {
+                            let RELI = document.getElementsByName("religion")
+                            var RELID
+                            if (RELI[0].checked) {
+                            RELID = "Neuvádí se - narození po 31.12.1945 / Not applicable - born after 31.12.1945"
+                            }
+                            else if (RELI[1].checked) {
+                            RELID = "Katolické / Catholic"
+                            }
+                            else if (RELI[2].checked) {
+                            RELID = "Evangelické / Protestant"
+                            }
+                            else if (REL[3].checked) {
+                            RELID = "Židovské / Jewish"
+                            }
+                            if (FORMED == true) {
+                            NAVF.innerHTML = BCDFNAV05A
+                            }
+                            else {
+                            NAVF.innerHTML = BCDFNAV05B
+                            }
+                            let DF05BTN = document.getElementById("df05btn1")
+                                DF05BTN.onclick = function () {
+                                var RELAD
+                            if (FORMED == true) {
+                                NAVF.innerHTML = BCDFNAV06A
+                                RELAD = "N/A" 
+                            }
+                            else {
+                                let RELA = document.getElementsByName("relation")
+                                if (RELA[0].checked) {
+                                    RELAD = "Dítě / Child"
+                                }
+                                else if (RELA[1].checked) {
+                                    RELAD = "Rodič / Parent"
+                                }
+                                else if (RELA[2].checked) {
+                                    RELAD = "Vnouče / Grandchild"
+                                }
+                                else if (RELA[3].checked) {
+                                    RELAD = "Praodič / Grandparent"
+                                }
+                                else if (RELA[4].checked) {
+                                    RELAD = "Potomek v přímé linii / Descenant in direct line"
+                                }
+                                else if (RELA[5].checked) {
+                                    RELAD = "Manžel/ka / Spouse"
+                                }
+                                else if (RELA[6].checked) {
+                                    RELAD = "Sourozenec / Sibling"
+                                }
+                                else if (RELA[7].checked) {
+                                    RELAD = "Zplnomocněný zástupce / Authorized person"
+                                }
+                                NAVF.innerHTML = BCDFNAV06B
+                                }
+                                let DF06BTN = document.getElementById("df06btn1")
+                                    DF06BTN.onclick = function () {
+                                        
+                                    }  
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     DCBTN.onclick = function () {
         
