@@ -125,7 +125,7 @@ window.onload = function () {
                             var RELAD
                             if (FORMED == true) {
                                 NAVF.innerHTML = BCDFNAV05A
-                                RELAD = "N/A" 
+                                RELAD = "N/A"
                             }
                             else {
                                 let RELA = document.getElementsByName("relation")
@@ -161,132 +161,132 @@ window.onload = function () {
                                 var PADD01D = PADD01.value
                                 var FNAME05D
                                 var CSNAME05D
-                            if (FORMED == true) {
-                                NAVF.innerHTML = BCDFNAV06A
-                                FNAME05D = FNAME01D
-                                CSNAME05D = CSNAME01D
-                                let SFNAME01 = document.getElementById("SFname01")
-                                SFNAME01.innerHTML = FNAME01D
-                                let SCSNAME01 = document.getElementById("SCsname01")
-                                SCSNAME01.innerHTML = CSNAME01D
-                                let SBSNAME01 = document.getElementById("SBsname01")
-                                SBSNAME01.innerHTML = BSNAME01D
-                                let SDOB01 = document.getElementById("SDob01")
-                                SDOB01.innerHTML = DOB01D
-                                let SPOB01 = document.getElementById("SPob01")
-                                SPOB01.innerHTML = POB01D
-                                let SCOB01 = document.getElementById("SCob01")
-                                SCOB01.innerHTML = COB01D
-                                let SFNAME03 = document.getElementById("SFname03")
-                                SFNAME03.innerHTML = FNAME03D
-                                let SCSNAME03 = document.getElementById("SCsname03")
-                                SCSNAME03.innerHTML = CSNAME03D
-                                let SBSNAME03 = document.getElementById("SBsname03")
-                                SBSNAME03.innerHTML = BSNAME03D
-                                let SFNAME04 = document.getElementById("SFname04")
-                                SFNAME04.innerHTML = FNAME01D
-                                let SCSNAME04 = document.getElementById("SCsname04")
-                                SCSNAME04.innerHTML = CSNAME04D
-                                let SBSNAME04 = document.getElementById("SBsname04")
-                                SBSNAME04.innerHTML = BSNAME04D
-                                let SRELI = document.getElementById("SReli")
-                                SRELI.innerHTML = RELID
-                                let SRELA = document.getElementById("SRela")
-                                SRELA.innerHTML = RELAD
-                                let SPADD01 = document.getElementById("SPadd01")
-                                SPADD01.innerHTML = PADD01D
-                                let SFNAME05 = document.getElementById("SFname05")
-                                SFNAME05.innerHTML = FNAME05D
-                                let SCSNAME05 = document.getElementById("SCsname05")
-                                SCSNAME05.innerHTML = CSNAME05D
-                            }
-                            else {
-                                let FNAME05 = document.getElementById("Fname05")
-                                FNAME05D = FNAME05.value
-                                let CSNAME05 = document.getElementById("Csname05")
-                                CSNAME05D = CSNAME05.value
-                                NAVF.innerHTML = BCDFNAV06B
-                                let SFNAME01 = document.getElementById("SFname01")
-                                SFNAME01.innerHTML = FNAME01D
-                                let SCSNAME01 = document.getElementById("SCsname01")
-                                SCSNAME01.innerHTML = CSNAME01D
-                                let SBSNAME01 = document.getElementById("SBsname01")
-                                SBSNAME01.innerHTML = BSNAME01D
-                                let SDOB01 = document.getElementById("SDob01")
-                                SDOB01.innerHTML = DOB01D
-                                let SPOB01 = document.getElementById("SPob01")
-                                SPOB01.innerHTML = POB01D
-                                let SCOB01 = document.getElementById("SCob01")
-                                SCOB01.innerHTML = COB01D
-                                let SFNAME03 = document.getElementById("SFname03")
-                                SFNAME03.innerHTML = FNAME03D
-                                let SCSNAME03 = document.getElementById("SCsname03")
-                                SCSNAME03.innerHTML = CSNAME03D
-                                let SBSNAME03 = document.getElementById("SBsname03")
-                                SBSNAME03.innerHTML = BSNAME03D
-                                let SFNAME04 = document.getElementById("SFname04")
-                                SFNAME04.innerHTML = FNAME01D
-                                let SCSNAME04 = document.getElementById("SCsname04")
-                                SCSNAME04.innerHTML = CSNAME04D
-                                let SBSNAME04 = document.getElementById("SBsname04")
-                                SBSNAME04.innerHTML = BSNAME04D
-                                let SRELI = document.getElementById("SReli")
-                                SRELI.innerHTML = RELID
-                                let SRELA = document.getElementById("SRela")
-                                SRELA.innerHTML = RELAD
-                                let SPADD01 = document.getElementById("SPadd01")
-                                SPADD01.innerHTML = PADD01D
-                                let SFNAME05 = document.getElementById("SFname05")
-                                SFNAME05.innerHTML = FNAME05D
-                                let SCSNAME05 = document.getElementById("SCsname05")
-                                SCSNAME05.innerHTML = CSNAME05D
-                            }
+                                if (FORMED == true) {
+                                    NAVF.innerHTML = BCDFNAV06A
+                                    FNAME05D = FNAME01D
+                                    CSNAME05D = CSNAME01D
+                                    let SFNAME01 = document.getElementById("SFname01")
+                                    SFNAME01.innerHTML = FNAME01D
+                                    let SCSNAME01 = document.getElementById("SCsname01")
+                                    SCSNAME01.innerHTML = CSNAME01D
+                                    let SBSNAME01 = document.getElementById("SBsname01")
+                                    SBSNAME01.innerHTML = BSNAME01D
+                                    let SDOB01 = document.getElementById("SDob01")
+                                    SDOB01.innerHTML = DOB01D
+                                    let SPOB01 = document.getElementById("SPob01")
+                                    SPOB01.innerHTML = POB01D
+                                    let SCOB01 = document.getElementById("SCob01")
+                                    SCOB01.innerHTML = COB01D
+                                    let SFNAME03 = document.getElementById("SFname03")
+                                    SFNAME03.innerHTML = FNAME03D
+                                    let SCSNAME03 = document.getElementById("SCsname03")
+                                    SCSNAME03.innerHTML = CSNAME03D
+                                    let SBSNAME03 = document.getElementById("SBsname03")
+                                    SBSNAME03.innerHTML = BSNAME03D
+                                    let SFNAME04 = document.getElementById("SFname04")
+                                    SFNAME04.innerHTML = FNAME01D
+                                    let SCSNAME04 = document.getElementById("SCsname04")
+                                    SCSNAME04.innerHTML = CSNAME04D
+                                    let SBSNAME04 = document.getElementById("SBsname04")
+                                    SBSNAME04.innerHTML = BSNAME04D
+                                    let SRELI = document.getElementById("SReli")
+                                    SRELI.innerHTML = RELID
+                                    let SRELA = document.getElementById("SRela")
+                                    SRELA.innerHTML = RELAD
+                                    let SPADD01 = document.getElementById("SPadd01")
+                                    SPADD01.innerHTML = PADD01D
+                                    let SFNAME05 = document.getElementById("SFname05")
+                                    SFNAME05.innerHTML = FNAME05D
+                                    let SCSNAME05 = document.getElementById("SCsname05")
+                                    SCSNAME05.innerHTML = CSNAME05D
+                                }
+                                else {
+                                    let FNAME05 = document.getElementById("Fname05")
+                                    FNAME05D = FNAME05.value
+                                    let CSNAME05 = document.getElementById("Csname05")
+                                    CSNAME05D = CSNAME05.value
+                                    NAVF.innerHTML = BCDFNAV06B
+                                    let SFNAME01 = document.getElementById("SFname01")
+                                    SFNAME01.innerHTML = FNAME01D
+                                    let SCSNAME01 = document.getElementById("SCsname01")
+                                    SCSNAME01.innerHTML = CSNAME01D
+                                    let SBSNAME01 = document.getElementById("SBsname01")
+                                    SBSNAME01.innerHTML = BSNAME01D
+                                    let SDOB01 = document.getElementById("SDob01")
+                                    SDOB01.innerHTML = DOB01D
+                                    let SPOB01 = document.getElementById("SPob01")
+                                    SPOB01.innerHTML = POB01D
+                                    let SCOB01 = document.getElementById("SCob01")
+                                    SCOB01.innerHTML = COB01D
+                                    let SFNAME03 = document.getElementById("SFname03")
+                                    SFNAME03.innerHTML = FNAME03D
+                                    let SCSNAME03 = document.getElementById("SCsname03")
+                                    SCSNAME03.innerHTML = CSNAME03D
+                                    let SBSNAME03 = document.getElementById("SBsname03")
+                                    SBSNAME03.innerHTML = BSNAME03D
+                                    let SFNAME04 = document.getElementById("SFname04")
+                                    SFNAME04.innerHTML = FNAME01D
+                                    let SCSNAME04 = document.getElementById("SCsname04")
+                                    SCSNAME04.innerHTML = CSNAME04D
+                                    let SBSNAME04 = document.getElementById("SBsname04")
+                                    SBSNAME04.innerHTML = BSNAME04D
+                                    let SRELI = document.getElementById("SReli")
+                                    SRELI.innerHTML = RELID
+                                    let SRELA = document.getElementById("SRela")
+                                    SRELA.innerHTML = RELAD
+                                    let SPADD01 = document.getElementById("SPadd01")
+                                    SPADD01.innerHTML = PADD01D
+                                    let SFNAME05 = document.getElementById("SFname05")
+                                    SFNAME05.innerHTML = FNAME05D
+                                    let SCSNAME05 = document.getElementById("SCsname05")
+                                    SCSNAME05.innerHTML = CSNAME05D
+                                }
                                 let DF06BTN = document.getElementById("df06btn1")
                                 DF06BTN.onclick = function () {
                                     if (FORMED == true) {
-                                        NAVF.innerHTML = BCDPRINTA
-                                        }
+                                        NAVF.innerHTML = BCPRINTA
+                                    }
                                     else {
-                                        NAVF.innerHTML = BCDPRINTB
-                                        }
-                                        let PFNAME01 = document.getElementById("PFname01")
-                                        PFNAME01.innerHTML = FNAME01D
-                                        let PCSNAME01 = document.getElementById("PCsname01")
-                                        PCSNAME01.innerHTML = CSNAME01D
-                                        let PBSNAME01 = document.getElementById("PBsname01")
-                                        PBSNAME01.innerHTML = PSNAME01D
-                                        let PDOB01 = document.getElementById("PDob01")
-                                        PDOB01.innerHTML = DOB01D
-                                        let PPOB01 = document.getElementById("PPob01")
-                                        PPOB01.innerHTML = POB01D
-                                        let PCOB01 = document.getElementById("PCob01")
-                                        SCOB01.innerHTML = COB01D
-                                        let PFNAME03 = document.getElementById("PFname03")
-                                        SFNAME03.innerHTML = FNAME03D
-                                        let PCSNAME03 = document.getElementById("PCsname03")
-                                        PCSNAME03.innerHTML = CSNAME03D
-                                        let PBSNAME03 = document.getElementById("PBsname03")
-                                        PBSNAME03.innerHTML = BSNAME03D
-                                        let PFNAME04 = document.getElementById("PFname04")
-                                        PFNAME04.innerHTML = FNAME01D
-                                        let PCSNAME04 = document.getElementById("PCsname04")
-                                        PCSNAME04.innerHTML = CSNAME04D
-                                        let PBSNAME04 = document.getElementById("PBsname04")
-                                        PBSNAME04.innerHTML = BSNAME04D
-                                        let PRELI = document.getElementById("PReli")
-                                        PRELI.innerHTML = RELID
-                                        let PRELA = document.getElementById("PRela")
-                                        PRELA.innerHTML = RELAD
-                                        let PPADD01 = document.getElementById("PPadd01")
-                                        SPADD01.innerHTML = PADD01D
-                                        let PFNAME05 = document.getElementById("PFname05")
-                                        PFNAME05.innerHTML = FNAME05D
-                                        let PCSNAME05 = document.getElementById("PCsname05")
-                                        PCSNAME05.innerHTML = CSNAME05D
-                                    
+                                        NAVF.innerHTML = BCPRINTB
+                                    }
+                                    let PFNAME01 = document.getElementById("PFname01")
+                                    PFNAME01.innerHTML = FNAME01D
+                                    let PCSNAME01 = document.getElementById("PCsname01")
+                                    PCSNAME01.innerHTML = CSNAME01D
+                                    let PBSNAME01 = document.getElementById("PBsname01")
+                                    PBSNAME01.innerHTML = PSNAME01D
+                                    let PDOB01 = document.getElementById("PDob01")
+                                    PDOB01.innerHTML = DOB01D
+                                    let PPOB01 = document.getElementById("PPob01")
+                                    PPOB01.innerHTML = POB01D
+                                    let PCOB01 = document.getElementById("PCob01")
+                                    SCOB01.innerHTML = COB01D
+                                    let PFNAME03 = document.getElementById("PFname03")
+                                    SFNAME03.innerHTML = FNAME03D
+                                    let PCSNAME03 = document.getElementById("PCsname03")
+                                    PCSNAME03.innerHTML = CSNAME03D
+                                    let PBSNAME03 = document.getElementById("PBsname03")
+                                    PBSNAME03.innerHTML = BSNAME03D
+                                    let PFNAME04 = document.getElementById("PFname04")
+                                    PFNAME04.innerHTML = FNAME01D
+                                    let PCSNAME04 = document.getElementById("PCsname04")
+                                    PCSNAME04.innerHTML = CSNAME04D
+                                    let PBSNAME04 = document.getElementById("PBsname04")
+                                    PBSNAME04.innerHTML = BSNAME04D
+                                    let PRELI = document.getElementById("PReli")
+                                    PRELI.innerHTML = RELID
+                                    let PRELA = document.getElementById("PRela")
+                                    PRELA.innerHTML = RELAD
+                                    let PPADD01 = document.getElementById("PPadd01")
+                                    SPADD01.innerHTML = PADD01D
+                                    let PFNAME05 = document.getElementById("PFname05")
+                                    PFNAME05.innerHTML = FNAME05D
+                                    let PCSNAME05 = document.getElementById("PCsname05")
+                                    PCSNAME05.innerHTML = CSNAME05D
+
                                 }
                             }
-                         
+
                         }
                     }
                 }
@@ -308,7 +308,7 @@ window.onload = function () {
                 NAVF.innerHTML = MCDFNAV01B
             }
             let DF01BTN = document.getElementById("df01btn1")
-                DF01BTN.onclick = function () {
+            DF01BTN.onclick = function () {
                 let FNAME01 = document.getElementById("Fname01")
                 var FNAME01D = FNAME01.value
                 let CSNAME01 = document.getElementById("Csname01")
@@ -325,10 +325,10 @@ window.onload = function () {
                     NAVF.innerHTML = MCDFNAV02A
                 }
                 else {
-                    NAVF.innerHTML = MCDFNAV02B 
+                    NAVF.innerHTML = MCDFNAV02B
                 }
                 let DF02BTN = document.getElementById("df02btn1")
-                    DF02BTN.onclick = function () {
+                DF02BTN.onclick = function () {
                     let FNAME02 = document.getElementById("Fname02")
                     var FNAME02D = FNAME02.value
                     let CSNAME02 = document.getElementById("Csname02")
@@ -340,15 +340,15 @@ window.onload = function () {
                     let POB02 = document.getElementById("Pob02")
                     var POB02D = POB02.value
                     let COB02 = document.getElementById("Cob02")
-                    var COB02D = COB02.value  
+                    var COB02D = COB02.value
                     if (FORMED == true) {
-                    NAVF.innerHTML = MCDFNAV03A
+                        NAVF.innerHTML = MCDFNAV03A
                     }
                     else {
-                    NAVF.innerHTML = MCDFNAV03B 
+                        NAVF.innerHTML = MCDFNAV03B
                     }
                     let DF03BTN = document.getElementById("df03btn1")
-                        DF03BTN.onclick = function () {
+                    DF03BTN.onclick = function () {
                         let DOM01 = document.getElementById("Dom01")
                         var DOM01D = DOM01.value
                         let POM01 = document.getElementById("Pom01")
@@ -356,70 +356,70 @@ window.onload = function () {
                         let COM01 = document.getElementById("Com01")
                         var COM01D = COM01.value
                         if (FORMED == true) {
-                        NAVF.innerHTML = MCDFNAV04A
+                            NAVF.innerHTML = MCDFNAV04A
                         }
                         else {
-                        NAVF.innerHTML = MCDFNAV04B 
+                            NAVF.innerHTML = MCDFNAV04B
                         }
                         let DF04BTN = document.getElementById("df04btn1")
-                            DF04BTN.onclick = function () {
+                        DF04BTN.onclick = function () {
                             let RELI = document.getElementsByName("religion")
                             var RELID
                             if (RELI[0].checked) {
-                            RELID = "Neuvádí se - narození po 31.12.1945 / Not applicable - born after 31.12.1945"
+                                RELID = "Neuvádí se - narození po 31.12.1945 / Not applicable - born after 31.12.1945"
                             }
                             else if (RELI[1].checked) {
-                            RELID = "Katolické / Catholic"
+                                RELID = "Katolické / Catholic"
                             }
                             else if (RELI[2].checked) {
-                            RELID = "Evangelické / Protestant"
+                                RELID = "Evangelické / Protestant"
                             }
                             else if (REL[3].checked) {
-                            RELID = "Židovské / Jewish"
+                                RELID = "Židovské / Jewish"
                             }
                             if (FORMED == true) {
-                            NAVF.innerHTML = BCDFNAV05A
+                                NAVF.innerHTML = MCDFNAV05A
                             }
                             else {
-                            NAVF.innerHTML = BCDFNAV05B
+                                NAVF.innerHTML = MCDFNAV05B
                             }
                             let DF05BTN = document.getElementById("df05btn1")
-                                DF05BTN.onclick = function () {
+                            DF05BTN.onclick = function () {
                                 var RELAD
-                            if (FORMED == true) {
-                                NAVF.innerHTML = BCDFNAV06A
-                                RELAD = "N/A" 
-                            }
-                            else {
-                                let RELA = document.getElementsByName("relation")
-                                if (RELA[0].checked) {
-                                    RELAD = "Dítě / Child"
+                                if (FORMED == true) {
+                                    NAVF.innerHTML = MCDFNAV06A
+                                    RELAD = "N/A"
                                 }
-                                else if (RELA[1].checked) {
-                                    RELAD = "Rodič / Parent"
-                                }
-                                else if (RELA[2].checked) {
-                                    RELAD = "Vnouče / Grandchild"
-                                }
-                                else if (RELA[3].checked) {
-                                    RELAD = "Praodič / Grandparent"
-                                }
-                                else if (RELA[4].checked) {
-                                    RELAD = "Potomek v přímé linii / Descenant in direct line"
-                                }
-                                else if (RELA[5].checked) {
-                                    RELAD = "Manžel/ka / Spouse"
-                                }
-                                else if (RELA[6].checked) {
-                                    RELAD = "Sourozenec / Sibling"
-                                }
-                                else if (RELA[7].checked) {
-                                    RELAD = "Zplnomocněný zástupce / Authorized person"
-                                }
-                                NAVF.innerHTML = BCDFNAV06B
+                                else {
+                                    let RELA = document.getElementsByName("relation")
+                                    if (RELA[0].checked) {
+                                        RELAD = "Dítě / Child"
+                                    }
+                                    else if (RELA[1].checked) {
+                                        RELAD = "Rodič / Parent"
+                                    }
+                                    else if (RELA[2].checked) {
+                                        RELAD = "Vnouče / Grandchild"
+                                    }
+                                    else if (RELA[3].checked) {
+                                        RELAD = "Praodič / Grandparent"
+                                    }
+                                    else if (RELA[4].checked) {
+                                        RELAD = "Potomek v přímé linii / Descenant in direct line"
+                                    }
+                                    else if (RELA[5].checked) {
+                                        RELAD = "Manžel/ka / Spouse"
+                                    }
+                                    else if (RELA[6].checked) {
+                                        RELAD = "Sourozenec / Sibling"
+                                    }
+                                    else if (RELA[7].checked) {
+                                        RELAD = "Zplnomocněný zástupce / Authorized person"
+                                    }
+                                    NAVF.innerHTML = MCDFNAV06B
                                 }
                                 let DF06BTN = document.getElementById("df06btn1")
-                                    DF06BTN.onclick = function () {
+                                DF06BTN.onclick = function () {
                                     let PADD01 = document.getElementById("Padd01")
                                     var PADD01D = PADD01.value
                                     var FNAME05D
@@ -457,7 +457,7 @@ window.onload = function () {
                                         let SPOM01 = document.getElementById("SPom01")
                                         SPOM01.innerHTML = POM01D
                                         let SCOM01 = document.getElementById("SCom01")
-                                        SCOM01.innerHTML = COM01D    
+                                        SCOM01.innerHTML = COM01D
                                         let SRELI = document.getElementById("SReli")
                                         SRELI.innerHTML = RELID
                                         let SRELA = document.getElementById("SRela")
@@ -468,8 +468,9 @@ window.onload = function () {
                                         SFNAME05.innerHTML = FNAME05D
                                         let SCSNAME05 = document.getElementById("SCsname05")
                                         SCSNAME05.innerHTML = CSNAME05D
-                                        }
+                                    }
                                     else {
+                                        NAVF.innerHTML = MCDFNAV07B
                                         let FNAME05 = document.getElementById("Fname05")
                                         FNAME05D = FNAME05.value
                                         let CSNAME05 = document.getElementById("Csname05")
@@ -504,7 +505,7 @@ window.onload = function () {
                                         let SPOM01 = document.getElementById("SPom01")
                                         SPOM01.innerHTML = POM01D
                                         let SCOM01 = document.getElementById("SCom01")
-                                        SCOM01.innerHTML = COM01D    
+                                        SCOM01.innerHTML = COM01D
                                         let SRELI = document.getElementById("SReli")
                                         SRELI.innerHTML = RELID
                                         let SRELA = document.getElementById("SRela")
@@ -515,12 +516,12 @@ window.onload = function () {
                                         SFNAME05.innerHTML = FNAME05D
                                         let SCSNAME05 = document.getElementById("SCsname05")
                                         SCSNAME05.innerHTML = CSNAME05D
-                                        }
-                                        let DF07BTN = document.getElementById("df07btn1")
-                                        DF07BTN.onclick = function () {
-                                            
-                                        }
                                     }
+                                    let DF07BTN = document.getElementById("df07btn1")
+                                    DF07BTN.onclick = function () {
+
+                                    }
+                                }
                             }
                         }
                     }
@@ -530,119 +531,119 @@ window.onload = function () {
     }
     DCBTN.onclick = function () {
         NAVF.innerHTML = DCDFNAV01A
-            let DF01BTN = document.getElementById("df01btn1")
-            DF01BTN.onclick = function () {
-                let FNAME01 = document.getElementById("Fname01")
-                var FNAME01D = FNAME01.value
-                let CSNAME01 = document.getElementById("Csname01")
-                var CSNAME01D = CSNAME01.value
-                let BSNAME01 = document.getElementById("Bsname01")
-                var BSNAME01D = BSNAME01.value
-                let DOB01 = document.getElementById("Dob01")
-                var DOB01D = DOB01.value
-                let POB01 = document.getElementById("Pob01")
-                var POB01D = POB01.value
-                let COB01 = document.getElementById("Cob01")
-                var COB01D = COB01.value
-                NAVF.innerHTML = DCDFNAV02A
-                let DF02BTN = document.getElementById("df02btn1")
-                    DF02BTN.onclick = function () {
-                    let DOD01 = document.getElementById("Dod01")
-                    var DOD01D = DOD01.value
-                    let POD01 = document.getElementById("Pod01")
-                    var POD01D = POD01.value
-                    let COD01 = document.getElementById("Cod01")
-                    var COD01D = COD01.value
-                    NAVF.innerHTML = DCDFNAV03A    
-                    let DF03BTN = document.getElementById("df03btn1")
-                        DF03BTN.onclick = function () {
-                        let RELI = document.getElementsByName("religion")
-                        var RELID
-                        if (RELI[0].checked) {
-                            RELID = "Neuvádí se - narození po 31.12.1945 / Not applicable - born after 31.12.1945"
+        let DF01BTN = document.getElementById("df01btn1")
+        DF01BTN.onclick = function () {
+            let FNAME01 = document.getElementById("Fname01")
+            var FNAME01D = FNAME01.value
+            let CSNAME01 = document.getElementById("Csname01")
+            var CSNAME01D = CSNAME01.value
+            let BSNAME01 = document.getElementById("Bsname01")
+            var BSNAME01D = BSNAME01.value
+            let DOB01 = document.getElementById("Dob01")
+            var DOB01D = DOB01.value
+            let POB01 = document.getElementById("Pob01")
+            var POB01D = POB01.value
+            let COB01 = document.getElementById("Cob01")
+            var COB01D = COB01.value
+            NAVF.innerHTML = DCDFNAV02A
+            let DF02BTN = document.getElementById("df02btn1")
+            DF02BTN.onclick = function () {
+                let DOD01 = document.getElementById("Dod01")
+                var DOD01D = DOD01.value
+                let POD01 = document.getElementById("Pod01")
+                var POD01D = POD01.value
+                let COD01 = document.getElementById("Cod01")
+                var COD01D = COD01.value
+                NAVF.innerHTML = DCDFNAV03A
+                let DF03BTN = document.getElementById("df03btn1")
+                DF03BTN.onclick = function () {
+                    let RELI = document.getElementsByName("religion")
+                    var RELID
+                    if (RELI[0].checked) {
+                        RELID = "Neuvádí se - narození po 31.12.1945 / Not applicable - born after 31.12.1945"
+                    }
+                    else if (RELI[1].checked) {
+                        RELID = "Katolické / Catholic"
+                    }
+                    else if (RELI[2].checked) {
+                        RELID = "Evangelické / Protestant"
+                    }
+                    else if (REL[3].checked) {
+                        RELID = "Židovské / Jewish"
+                    }
+                    NAVF.innerHTML = DCDFNAV04A
+                    let DF04BTN = document.getElementById("df04btn1")
+                    DF04BTN.onclick = function () {
+                        let RELA = document.getElementsByName("relation")
+                        if (RELA[0].checked) {
+                            RELAD = "Dítě / Child"
                         }
-                        else if (RELI[1].checked) {
-                            RELID = "Katolické / Catholic"
+                        else if (RELA[1].checked) {
+                            RELAD = "Rodič / Parent"
                         }
-                        else if (RELI[2].checked) {
-                            RELID = "Evangelické / Protestant"
+                        else if (RELA[2].checked) {
+                            RELAD = "Vnouče / Grandchild"
                         }
-                        else if (REL[3].checked) {
-                            RELID = "Židovské / Jewish"
-                        }    
-                        NAVF.innerHTML = DCDFNAV04A
-                        let DF04BTN = document.getElementById("df04btn1")
-                            DF04BTN.onclick = function () {
-                            let RELA = document.getElementsByName("relation")
-                            if (RELA[0].checked) {
-                                RELAD = "Dítě / Child"
-                                }
-                            else if (RELA[1].checked) {
-                                    RELAD = "Rodič / Parent"
-                                }
-                            else if (RELA[2].checked) {
-                                    RELAD = "Vnouče / Grandchild"
-                                }
-                            else if (RELA[3].checked) {
-                                    RELAD = "Praodič / Grandparent"
-                                }
-                            else if (RELA[4].checked) {
-                                    RELAD = "Potomek v přímé linii / Descenant in direct line"
-                                }
-                            else if (RELA[5].checked) {
-                                    RELAD = "Manžel/ka / Spouse"
-                                }
-                            else if (RELA[6].checked) {
-                                    RELAD = "Sourozenec / Sibling"
-                                }
-                            else if (RELA[7].checked) {
-                                    RELAD = "Zplnomocněný zástupce / Authorized person"
-                                }
-                            NAVF.innerHTML = DCDFNAV05A
-                            let DF05BTN = document.getElementById("df05btn1")
-                                DF05BTN.onclick = function () {
-                                let PADD01 = document.getElementById("Padd01")
-                                var PADD01D = PADD01.value
-                                let FNAME05 = document.getElementById("Fname05")
-                                FNAME05D = FNAME05.value
-                                let CSNAME05 = document.getElementById("Csname05")
-                                CSNAME05D = CSNAME05.value
-                                NAVF.innerHTML = DCDFNAV06A
-                                let SFNAME01 = document.getElementById("SFname01")
-                                    SFNAME01.innerHTML = FNAME01D
-                                    let SCSNAME01 = document.getElementById("SCsname01")
-                                    SCSNAME01.innerHTML = CSNAME01D
-                                    let SBSNAME01 = document.getElementById("SBsname01")
-                                    SBSNAME01.innerHTML = BSNAME01D
-                                    let SDOB01 = document.getElementById("SDob01")
-                                    SDOB01.innerHTML = DOB01D
-                                    let SPOB01 = document.getElementById("SPob01")
-                                    SPOB01.innerHTML = POB01D
-                                    let SCOB01 = document.getElementById("SCob01")
-                                    SCOB01.innerHTML = COB01D
-                                    let SDOD01 = document.getElementById("SDod01")
-                                    SDOD01.innerHTML = DOD01D
-                                    let SPOD01 = document.getElementById("SPod01")
-                                    SPOD01.innerHTML = POD01D
-                                    let SCOD01 = document.getElementById("SCod01")
-                                    SCOD01.innerHTML = COD01D    
-                                    let SRELI = document.getElementById("SReli")
-                                    SRELI.innerHTML = RELID
-                                    let SRELA = document.getElementById("SRela")
-                                    SRELA.innerHTML = RELAD
-                                    let SPADD01 = document.getElementById("SPadd01")
-                                    SPADD01.innerHTML = PADD01D
-                                    let SFNAME05 = document.getElementById("SFname05")
-                                    SFNAME05.innerHTML = FNAME05D
-                                    let SCSNAME05 = document.getElementById("SCsname05")
-                                    SCSNAME05.innerHTML = CSNAME05D
-                                    let DF06BTN = document.getElementById("df06btn1")
-                                        DF06BTN.onclick = function () {
-                                        }
-                                }
+                        else if (RELA[3].checked) {
+                            RELAD = "Praodič / Grandparent"
+                        }
+                        else if (RELA[4].checked) {
+                            RELAD = "Potomek v přímé linii / Descenant in direct line"
+                        }
+                        else if (RELA[5].checked) {
+                            RELAD = "Manžel/ka / Spouse"
+                        }
+                        else if (RELA[6].checked) {
+                            RELAD = "Sourozenec / Sibling"
+                        }
+                        else if (RELA[7].checked) {
+                            RELAD = "Zplnomocněný zástupce / Authorized person"
+                        }
+                        NAVF.innerHTML = DCDFNAV05A
+                        let DF05BTN = document.getElementById("df05btn1")
+                        DF05BTN.onclick = function () {
+                            let PADD01 = document.getElementById("Padd01")
+                            var PADD01D = PADD01.value
+                            let FNAME05 = document.getElementById("Fname05")
+                            FNAME05D = FNAME05.value
+                            let CSNAME05 = document.getElementById("Csname05")
+                            CSNAME05D = CSNAME05.value
+                            NAVF.innerHTML = DCDFNAV06A
+                            let SFNAME01 = document.getElementById("SFname01")
+                            SFNAME01.innerHTML = FNAME01D
+                            let SCSNAME01 = document.getElementById("SCsname01")
+                            SCSNAME01.innerHTML = CSNAME01D
+                            let SBSNAME01 = document.getElementById("SBsname01")
+                            SBSNAME01.innerHTML = BSNAME01D
+                            let SDOB01 = document.getElementById("SDob01")
+                            SDOB01.innerHTML = DOB01D
+                            let SPOB01 = document.getElementById("SPob01")
+                            SPOB01.innerHTML = POB01D
+                            let SCOB01 = document.getElementById("SCob01")
+                            SCOB01.innerHTML = COB01D
+                            let SDOD01 = document.getElementById("SDod01")
+                            SDOD01.innerHTML = DOD01D
+                            let SPOD01 = document.getElementById("SPod01")
+                            SPOD01.innerHTML = POD01D
+                            let SCOD01 = document.getElementById("SCod01")
+                            SCOD01.innerHTML = COD01D
+                            let SRELI = document.getElementById("SReli")
+                            SRELI.innerHTML = RELID
+                            let SRELA = document.getElementById("SRela")
+                            SRELA.innerHTML = RELAD
+                            let SPADD01 = document.getElementById("SPadd01")
+                            SPADD01.innerHTML = PADD01D
+                            let SFNAME05 = document.getElementById("SFname05")
+                            SFNAME05.innerHTML = FNAME05D
+                            let SCSNAME05 = document.getElementById("SCsname05")
+                            SCSNAME05.innerHTML = CSNAME05D
+                            let DF06BTN = document.getElementById("df06btn1")
+                            DF06BTN.onclick = function () {
                             }
                         }
                     }
+                }
             }
+        }
     }
 }
