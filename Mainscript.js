@@ -30,12 +30,14 @@ import { MCDFNAV06B } from "./NavDivs.js"
 import { MCDFNAV07A } from "./NavDivs.js"
 import { MCDFNAV07B } from "./NavDivs.js"
 import { MCPRINTA } from "./PrintDivs.js"
+import { MCPRINTB } from "./PrintDivs.js"
 import { DCDFNAV01A } from "./NavDivs.js"
 import { DCDFNAV02A } from "./NavDivs.js"
 import { DCDFNAV03A } from "./NavDivs.js"
 import { DCDFNAV04A } from "./NavDivs.js"
 import { DCDFNAV05A } from "./NavDivs.js"
 import { DCDFNAV06A } from "./NavDivs.js"
+import { DCPRINTA } from "./PrintDivs.js"
 
 
 window.onload = function () {
