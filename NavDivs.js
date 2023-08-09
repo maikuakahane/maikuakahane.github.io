@@ -1024,7 +1024,7 @@ export var DCDFNAV02A = `
             </div>
             <div>
                 <label>Country of their death</label>
-                <input type="text" id="Cod1">
+                <input type="text" id="Cod01">
             </div>
             <div class="button">
                 <input type="button" id="df02btn1" value="Next" />
