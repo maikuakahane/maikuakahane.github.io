@@ -1,3 +1,27 @@
 ﻿body
 {
 }
+
+#formbox {
+    }
+
+.questform {
+    text-align:center;
+    padding: 20px;
+    margin: 5% auto;
+    min-width: 30%;
+    max-width: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: lightcoral
+}
+
+input[type="button"] {
+    margin: 5px auto;
+    min-width: 40%;
+    max-width: 80%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: aqua;
+ 
+}
