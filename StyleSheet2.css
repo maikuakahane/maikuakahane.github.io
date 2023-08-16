@@ -1,5 +1,29 @@
-﻿body
+﻿@font-face {
+    font-family: OpenDyslexic;
+    src: url('Font/OpenDyslexic-Regular.otf')
+}
+@font-face {
+    font-family: OpenDyslexic;
+    font-weight: bold;
+    src: url('Font/OpenDyslexic-Bold.otf')
+}
+
+@font-face {
+    font-family: OpenDyslexic;
+    font-weight: bold;
+    font-style: italic;
+    src: url('Font/OpenDyslexic-BoldItalic.otf')
+}
+
+@font-face {
+    font-family: OpenDyslexic;
+    font-style: italic;
+    src: url('Font/OpenDyslexic-Italic.otf')
+}
+
+body
 {
+    font-family : OpenDyslexic, Georgia, sans-serif;
 }
 
 #formbox {
@@ -15,9 +39,11 @@
     border-style: solid;
     border-color: lightcoral;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px lightgray;
 }
 
 input[type="button"] {
+    font-family: OpenDyslexic, Georgia, sans-serif;
     margin: 5px auto;
     min-width: 40%;
     max-width: 80%;
@@ -26,4 +52,6 @@ input[type="button"] {
     border-color: lightcoral;
     border-radius: 20px;
     background-color: lemonchiffon;
+    box-shadow: 2px 2px 2px 2px lightgray;
 }
+
