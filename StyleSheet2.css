@@ -15,6 +15,7 @@
     border-style: solid;
     border-color: lightcoral;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px lightgray;
 }
 
 input[type="button"] {
@@ -26,4 +27,5 @@ input[type="button"] {
     border-color: lightcoral;
     border-radius: 20px;
     background-color: lemonchiffon;
+    box-shadow: 2px 2px 2px 2px lightgray;
 }
