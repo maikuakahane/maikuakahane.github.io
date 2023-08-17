@@ -55,3 +55,12 @@ input[type="button"] {
     box-shadow: 2px 2px 2px 2px lightgray;
 }
 
+input[type="text"] {
+    float: right;
+    min-width: 40%;
+}
+
+input[type="date"] {
+    float: right;
+    min-width: 40%;
+}
