@@ -64,3 +64,10 @@ input[type="date"] {
     float: right;
     min-width: 40%;
 }
+
+.printform {
+    margin: 1% auto;
+    border-width: 3px;
+    border-style: hidden;
+    padding: 1%
+}
