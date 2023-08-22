@@ -66,8 +66,23 @@ input[type="date"] {
 }
 
 .printform {
+    max-width: 95%;
     margin: 1% auto;
     border-width: 3px;
     border-style: hidden;
     padding: 1%
+}
+
+.printform table {
+    width: 99%;
+    border-style: hidden;
+    border-width: 3px; 
+}
+
+.printform td,tr {
+    min-width: 50%;
+    border-style: solid;
+    border-width: 3px;
+    margin: auto;
+    
 }
