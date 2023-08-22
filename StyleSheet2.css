@@ -65,6 +65,20 @@ input[type="date"] {
     min-width: 40%;
 }
 
+.questform table {
+    width: 99%;
+    border-style: hidden;
+    border-width: 3px; 
+}
+
+.questform td,tr {
+    min-width: 50%;
+    border-style: solid;
+    border-width: 3px;
+    margin: auto;
+    
+}
+
 .printform {
     max-width: 95%;
     margin: 1% auto;
