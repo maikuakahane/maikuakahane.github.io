@@ -86,76 +86,111 @@ input[type="date"] {
     padding: 1%
 }
 
-    .printform table {
-        width: 99%;
-        border-style: hidden;
-        border-width: 3px;
-    }
+.datatable {
+    width: 99%;
+    border-style: hidden;
+    border-width: 3px;
+}
 
-    .printform td, tr {
-        min-width: 50%;
-        border-style: solid;
-        border-width: 3px;
-        margin: auto;
-    }
+.datacell, .textcell {
+    min-width: 50%;
+    border-style: solid;
+    border-width: 3px;
+    margin: auto;
+}
 
-.signtable {
+.datacell {
+    text-align: center;
+}
+
+.signtable1 {
     table-layout: fixed;
     margin-bottom: 1%;
+    margin-top: 3%;
 }
 
-    .signtable .setfield {
-        vertical-align: bottom;
-        text-align: center
-    }
-
-    .signtable .fillfield {
-        width: 24%;
-    }
-
-.ppttable {
-    margin-top: 1%;
-    table-layout: fixed
-}
-
-    .ppttable .setfield, .offtable .setfield {
+    .signtable1 .setfield {
         vertical-align: bottom;
         text-align: right;
     }
 
-    .ppttable .fillfield {
-        max-width: 70%;
-        min-width: 35% !important;
+    .signtable1 .fillfield {
+        width: 24%;
     }
 
-.offtable .fillfield {
-    height: 2cm;
+.signtable2 {
+    table-layout: fixed;
+    margin-bottom: 1%;
+    margin-top: 3%;
 }
 
+    .signtable2 .setfield {
+        width: 20%;
+        vertical-align: bottom;
+        text-align: center
+    }
+
+
+
+.ppttable1 {
+    margin-top: 1%;
+    table-layout: fixed;
+}
+
+    .ppttable1 .setfield {
+        width: 23%;
+        vertical-align: bottom;
+        text-align: right;
+    }
+
+    .ppttable1 .fillfield {
+        width: 77%;
+    }
+
+.ppttable2 {
+    margin-top: 1%;
+    table-layout: fixed;
+}
+
+    .ppttable2 .setfield {
+        vertical-align: bottom;
+        text-align: right;
+    }
+
+    .ppttable2 .fillfield {
+        width: 20%;
+    }
+
+.offtable {
+    margin-top: 1%;
+}
+
+    .offtable .setfield {
+        vertical-align: bottom;
+        text-align: right;
+    }
+
 .fillfield {
-    border-bottom-style: dotted !important;
-    border-top-style: hidden !important;
-    border-right-style: hidden !important;
-    border-left-style: hidden !important;
+    border-bottom-style: dotted;
 }
 
 .setfield {
-    border-style: hidden !important;
-    min-width: 15%;
-    max-width: 20%
+    border-style: hidden;
 }
 
-.fillspacer {
-    border-collapse: separate;
-    width: 100% !important;
-    border-style: hidden !important;
-    border-top-style: solid !important;
+.filler {
+    width: 100%;
+    border-top-style: solid;
 }
 
 
 @media print {
-    .printform {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
 
+    .printform {
         page-break-after: always;
     }
 }

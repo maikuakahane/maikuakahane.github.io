@@ -9,106 +9,108 @@ export var BCPRINTA = `
         <h4> Označení požadovaného dokladu/Designation of requested certicfcate </h4>
         <b>Rodný list/birth certificace </b>
         <h4> Údaje o osobě, které se žádaný doklad týká/ Details of the person on the certificate </h4>
-        <table>
+        <table class="datatable">
             <tr>
-                <td> Současné příjmení/ Current surname </td>
-                <td id="PCsname01">  </td>
+                <td class="textcell"> Současné příjmení/ Current surname </td>
+                <td id="PCsname01" class="datacell">  </td>
             </tr>
             <tr>
-                <td> Rodné příjmení/surname at birth </td>
-                <td id="PBsname01"> </td>
+                <td class="textcell"> Rodné příjmení/surname at birth </td>
+                <td id="PBsname01" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Jméno/first and middle names </td>
-                <td id="PFname01"> </td>
+                <td class="textcell"> Jméno/first and middle names </td>
+                <td id="PFname01" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Datum narození/date of birth </td>
-                <td id="PDob01"> </td>
+                <td class="textcell"> Datum narození/date of birth </td>
+                <td id="PDob01" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Místo narození/place of birth </td>
-                <td id="PPob01"> </td>
+                <td class="textcell"> Místo narození/place of birth </td>
+                <td id="PPob01" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Stát narození/country of birth </td>
-                <td id="PCob01"> </td>
+                <td class="textcell"> Stát narození/country of birth </td>
+                <td id="PCob01" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Náboženství v době narození u osob, které se narodily do 31. 12. 1949/ religion at time of birth prior to 31.12.1949 </td>
-                <td id="PReli"> </td>
+                <td class="textcell"> Náboženství v době narození u osob, které se narodily do 31. 12. 1949/ religion at time of birth prior to 31.12.1949 </td>
+                <td id="PReli" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Nynější bydliště/current address </td>
-                <td id="PPadd01"> </td>
+                <td class="textcell"> Nynější bydliště/current address </td>
+                <td id="PPadd01" class="datacell"> </td>
             </tr>
         </table>
         <h4> Údaje o rodičích osoby uvedené v bodu B/details of parents of person listed in point B </h4>
-        <table>
+        <table class="datatable" class="datacell">
             <tr>
-                <td> Současné příjmení jejich otce/ Current surname </td>
-                <td id="PCsname04">  </td>
+                <td class="textcell"> Současné příjmení jejich otce/ Current surname </td>
+                <td id="PCsname04" class="datacell">  </td>
             </tr>
             <tr>
-                <td> Rodné příjmení jejich otce/surname at birth </td>
-                <td id="PBsname04"> </td>
+                <td class="textcell"> Rodné příjmení jejich otce/surname at birth </td>
+                <td id="PBsname04" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Jméno jejich otce/ first and middle names </td>
-                <td id="PFname04"> </td>
+                <td class="textcell"> Jméno jejich otce/ first and middle names </td>
+                <td id="PFname04" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Současné příjmení jejich matky/ Current surname </td>
-                <td id="PCsname03">  </td>
+                <td class="textcell"> Současné příjmení jejich matky/ Current surname </td>
+                <td id="PCsname03" class="datacell">  </td>
             </tr>
             <tr>
-                <td> Rodné příjmení jejich matky/surname at birth </td>
-                <td id="PBsname03"> </td>
+                <td class="textcell"> Rodné příjmení jejich matky/surname at birth </td>
+                <td id="PBsname03" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Jméno jejich matky/ first and middle names </td>
-                <td id="PFname03"> </td>
+                <td class="textcell"> Jméno jejich matky/ first and middle names </td>
+                <td id="PFname03" class="datacell"> </td>
             </tr>
         </table>
     </div>
     <div class="printform" id="bcprint02">
         <h4> Údaje o osobě, která žádá o vystavení dokladu, není-li totožná s osobou v bodě B/details of the person requesting issue of the certificate if not the same as person listed in point B </h4>
-        <table>
+        <table class="datatable">
             <tr>
-                <td> Jméno/first and middle names </td>
-                <td id="PFname05"> </td>
+                <td class="textcell"> Jméno/first and middle names </td>
+                <td id="PFname05" class="datacell"> </td>
             </tr>
             <tr>
-                <td> Současné příjmení/ Current surname </td>
-                <td id="PCsname05">  </td>
+                <td class="textcell"> Současné příjmení/ Current surname </td>
+                <td id="PCsname05" class="datacell">  </td>
             </tr>
             <tr>
-                <td> Rodinný poměr k osobě, na jejíž jméno má být doklad vystaven nebo uvedení právního zájmu na vystavení dokladu/family relationship to the person whose certificate should be issued or statement of legal interest on issue of the certificate </td>
-                <td id="PRela">  </td>
+                <td class="textcell"> Rodinný poměr k osobě, na jejíž jméno má být doklad vystaven nebo uvedení právního zájmu na vystavení dokladu/family relationship to the person whose certificate should be issued or statement of legal interest on issue of the certificate </td>
+                <td id="PRela" class="datacell">  </td>
             </tr>
         </table>
-        <table class="signtable">
+        <table class="signtable1">
            <tr>
                 <td class="setfield">V/In </td>
                 <td class="fillfield"></td>
                <td class="setfield">dne/date</td>
                 <td class="fillfield"></td>
+                </table>
+         <table class="signtable2">
                 <td class="setfield">podpis žadatele/signature of applicant</td>
                 <td class="fillfield"></td>
             </tr>
             </table>
-            <table>
+            <table class="filler">
             <tr> 
                 <td class="fillspacer"></td>
             </tr>
             </table>
-            <table class="ppttable">
+            <table class="ppttable1">
             <tr>
                 <td class="setfield">Totožnost žadatele ověřena podle dokladu</td>
                 <td class="fillfield"></td>
             </tr>
             </table>
-            <table class="ppttable">
+            <table class="ppttable2">
             <tr>
                 <td class="setfield">vydaného dne</td>
                 <td class="fillfield"></td>
