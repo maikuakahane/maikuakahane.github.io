@@ -140,7 +140,7 @@ export var BCPRINTB = `
             </tr>
             <tr>
                 <td> Stát narození/country of birth </td>
-                <td id="PPob01"> </td>
+                <td id="PCob01"> </td>
             </tr>
             <tr>
                 <td> Náboženství v době narození u osob, které se narodily do 31. 12. 1949/ religion at time of birth prior to 31.12.1949 </td>
