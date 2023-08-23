@@ -87,23 +87,47 @@ export var BCPRINTA = `
                 <td id="PRela">  </td>
             </tr>
         </table>
-        <br>
-        V/In (.......................)dne/date (.............................) podpis žadatele/signature of applicant (...........................)
-        <br>
-        -------------------------------------------------------------------------------------------------------------------------------------------
-        <br>
-        Totožnost žadatele ověřena podle dokladu .....................................................................
-        <br> vydaného dne ......./......./.......   kým ..................... platného do ......./......./.......
-        <br>
-        Totožnost žadatele ověřil:
-        <br>
-        ....................................................................................
-        <br>
-        jméno, příjmení, funkce a podpis konzulárního úředníka
-        <br>
-        ....................................................................................
-        <br>
-        razítko zastupitelského úřadu ČR
+        <table class="signtable">
+           <tr>
+                <td class="setfield">V/In </td>
+                <td class="fillfield"></td>
+               <td class="setfield">dne/date</td>
+                <td class="fillfield"></td>
+                <td class="setfield">podpis žadatele/signature of applicant</td>
+                <td class="fillfield"></td>
+            </tr>
+            </table>
+            <table>
+            <tr> 
+                <td class="fillspacer"></td>
+            </tr>
+            </table>
+            <table class="ppttable">
+            <tr>
+                <td class="setfield">Totožnost žadatele ověřena podle dokladu</td>
+                <td class="fillfield"></td>
+            </tr>
+            </table>
+            <table class="ppttable">
+            <tr>
+                <td class="setfield">vydaného dne</td>
+                <td class="fillfield"></td>
+                <td class="setfield">kým</td>
+                <td class="fillfield"></td>
+                <td class="setfield">platného do</td>
+                <td class="fillfield"></td>
+            </tr>
+            </table>
+            <table class="offtable">
+            <tr>
+                <td class="setfield">Jméno, příjmení, funkce a podpis konzulárního úředníka/matrikáře</td>
+                <td class="fillfield"></td>
+            </tr>
+            <tr>
+                <td class="setfield">Razítko zastupitelského/matričního úřadu ČR</td>
+                <td class="fillfield"></td>
+            </tr>
+        </table>
     </div> `
 
 
