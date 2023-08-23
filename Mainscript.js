@@ -471,9 +471,9 @@ window.onload = function () {
                                     }
                                     else {
                                         NAVF.innerHTML = MCDFNAV07B
-                                        let FNAME05 = document.getElementById("Fname05")
+                                        let SFNAME05 = document.getElementById("SFname05")
                                         FNAME05D = FNAME05.value
-                                        let CSNAME05 = document.getElementById("Csname05")
+                                        let SCSNAME05 = document.getElementById("SCsname05")
                                         CSNAME05D = CSNAME05.value
                                         NAVF.innerHTML = MCDFNAV07B
                                         let SFNAME01 = document.getElementById("SFname01")
