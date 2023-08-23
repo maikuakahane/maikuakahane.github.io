@@ -100,3 +100,10 @@ input[type="date"] {
     margin: auto;
     
 }
+
+@media print {
+    .printform {
+    height: 297mm;
+    width: 210mm;
+    }
+}
