@@ -1,5 +1,6 @@
 // JavaScript source code
 export var BCPRINTA = `
+<div class="printpage">
     <div class="printform" id="bcprint01">
         <h3>
             Dotazník k žádosti o zaslání matričního dokladu z ČR
@@ -71,6 +72,8 @@ export var BCPRINTA = `
             </tr>
         </table>
     </div>
+    </div>
+    <div class="printpage">
     <div class="printform" id="bcprint02">
         <h4> Údaje o osobě, která žádá o vystavení dokladu, není-li totožná s osobou v bodě B/details of the person requesting issue of the certificate if not the same as person listed in point B </h4>
         <table class="datatable">
@@ -130,6 +133,7 @@ export var BCPRINTA = `
                 <td class="fillfield"></td>
             </tr>
         </table>
+        </div>
     </div> `
 
 
