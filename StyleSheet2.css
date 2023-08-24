@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: OpenDyslexic;
     src: url('Font/OpenDyslexic-Regular.otf')
 }
@@ -115,7 +115,7 @@ input[type="date"] {
     }
 
     .signtable1 .fillfield {
-        width: 24%;
+        width: 40%;
     }
 
 .signtable2 {
@@ -125,12 +125,14 @@ input[type="date"] {
 }
 
     .signtable2 .setfield {
-        width: 20%;
+      
         vertical-align: bottom;
         text-align: center
     }
 
-
+    .signtable2 .fillfield {
+        width: 60%;
+    }
 
 .ppttable1 {
     margin-top: 1%;
@@ -138,13 +140,13 @@ input[type="date"] {
 }
 
     .ppttable1 .setfield {
-        width: 23%;
+  
         vertical-align: bottom;
         text-align: right;
     }
 
     .ppttable1 .fillfield {
-        width: 77%;
+        width: 70%;
     }
 
 .ppttable2 {
@@ -158,7 +160,7 @@ input[type="date"] {
     }
 
     .ppttable2 .fillfield {
-        width: 20%;
+        width: 26.1%;
     }
 
 .offtable {
@@ -168,6 +170,11 @@ input[type="date"] {
     .offtable .setfield {
         vertical-align: bottom;
         text-align: right;
+    }
+
+    .offtable .fillfield {
+        width: 53.4%;
+        height: 3cm;
     }
 
 .fillfield {
