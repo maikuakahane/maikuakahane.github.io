@@ -189,12 +189,10 @@ input[type="date"] {
 
 
 @media print {
-    html, body, .printpage {
-        width: 210mm;
-        height: 297mm;
+    .printform {
+        font-family: Georgia, sans-serif;
+        page-break-after: always;
+        page-break-inside: avoid;
     }
 
-    .printform {
-        page-break-after: always;
-    }
-}
+
