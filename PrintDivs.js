@@ -1,6 +1,5 @@
 // JavaScript source code
 export var BCPRINTA = `
-<div class="printpage">
     <div class="printform" id="bcprint01">
         <h3>
             Dotazník k žádosti o zaslání matričního dokladu z ČR
@@ -45,7 +44,7 @@ export var BCPRINTA = `
             </tr>
         </table>
         <h4> Údaje o rodičích osoby uvedené v bodu B/details of parents of person listed in point B </h4>
-        <table class="datatable" class="datacell">
+        <table class="datatable"">
             <tr>
                 <td class="textcell"> Současné příjmení jejich otce/ Current surname </td>
                 <td id="PCsname04" class="datacell">  </td>
@@ -72,8 +71,6 @@ export var BCPRINTA = `
             </tr>
         </table>
     </div>
-    </div>
-    <div class="printpage">
     <div class="printform" id="bcprint02">
         <h4> Údaje o osobě, která žádá o vystavení dokladu, není-li totožná s osobou v bodě B/details of the person requesting issue of the certificate if not the same as person listed in point B </h4>
         <table class="datatable">
@@ -133,7 +130,6 @@ export var BCPRINTA = `
                 <td class="fillfield"></td>
             </tr>
         </table>
-        </div>
     </div> `
 
 
@@ -147,7 +143,7 @@ export var BCPRINTB = `
         <h4> Označení požadovaného dokladu/Designation of requested certicfcate </h4>
         <b>Rodný list/birth certificace </b>
         <h4> Údaje o osobě, které se žádaný doklad týká/ Details of the person on the certificate </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Současné příjmení/ Current surname </td>
                 <td id="PCsname01" class="datacell">  </td>
@@ -178,7 +174,7 @@ export var BCPRINTB = `
             </tr>
         </table>
         <h4> Údaje o rodičích osoby uvedené v bodu B/details of parents of person listed in point B </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Současné příjmení jejich otce/ Current surname </td>
                 <td id="PCsname04" class="datacell">  </td>
@@ -207,7 +203,7 @@ export var BCPRINTB = `
     </div>
     <div class="printform" id="bcqprint02">
         <h4> Údaje o osobě, která žádá o vystavení dokladu, není-li totožná s osobou v bodě B/details of the person requesting issue of the certificate if not the same as person listed in point B </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Jméno/first and middle names </td>
                 <td id="PFname05" class="datacell"> </td>
@@ -272,7 +268,6 @@ export var BCPRINTB = `
 
 
 export var MCPRINTA = `
-    <div class="printpage">
     <div class="printform" id="mcprint01">
         <h3>
             Dotazník k žádosti o zaslání matričního dokladu z ČR
@@ -282,7 +277,7 @@ export var MCPRINTA = `
         <h4> A. Označení požadovaného dokladu/Designation of requested certicfcate </h4>
         <b>Oddací list/marriage certificace </b>
         <h4> B. Údaje o osobě, které se žádaný doklad týká/ Details of the person on the certificate </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Současné příjmení/ Current surname </td>
                 <td id="PCsname01" class="datacell">  </td>
@@ -313,7 +308,7 @@ export var MCPRINTA = `
             </tr>
         </table>
         <h4> C. Údaje o manželovi/manželce osoby uvedené v bodu B/ Details of spouse of person listed in point B</h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Současné příjmení/ Current surname </td>
                 <td id="PCsname02" class="datacell">  </td>
@@ -340,7 +335,7 @@ export var MCPRINTA = `
             </tr>
         </table>
         <h4> Údaje o manželství uzavřené mezi osobami v bodech B a C/Details of marriage betweens persons listed in point B and C </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Datum uzavření manželství /date of marriage </td>
                 <td id="PDom01" class="datacell"> </td>
@@ -358,11 +353,9 @@ export var MCPRINTA = `
             </tr>
         </table>
     </div>
-    </div>
-    <div class="printpage">
     <div class="printform" id="mcprint02">
         <h4> Údaje o osobě, která žádá o vystavení dokladu, není-li totožná s osobou v bodě B/details of the person requesting issue of the certificate if not the same as person listed in point B </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Jméno/first and middle names </td>
                 <td id="PFname05" class="datacell"> </td>
@@ -419,7 +412,6 @@ export var MCPRINTA = `
                 <td class="fillfield"></td>
             </tr>
         </table>
-        </div>
     </div> `
 
 export var MCPRINTB = `
@@ -432,7 +424,7 @@ export var MCPRINTB = `
         <h4> A. Označení požadovaného dokladu/Designation of requested certicfcate </h4>
         <b>Oddací list/marriage certificace </b>
         <h4> B. Údaje o osobě, které se žádaný doklad týká/ Details of the person on the certificate </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Současné příjmení/ Current surname </td>
                 <td id="PCsname01" class="datacell">  </td>
@@ -459,7 +451,7 @@ export var MCPRINTB = `
             </tr>
         </table>
         <h4> C. Údaje o manželovi/manželce osoby uvedené v bodu B/ Details of spouse of person listed in point B</h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Současné příjmení/ Current surname </td>
                 <td id="PCsname02" class="datacell">  </td>
@@ -486,7 +478,7 @@ export var MCPRINTB = `
             </tr>
         </table>
         <h4> Údaje o manželství uzavřené mezi osobami v bodech B a C/Details of marriage betweens persons listed in point B and C </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Datum uzavření manželství /date of marriage </td>
                 <td id="PDom01" class="datacell"> </td>
@@ -506,7 +498,7 @@ export var MCPRINTB = `
     </div>
     <div class="printform" id="mcprint02">
         <h4> Údaje o osobě, která žádá o vystavení dokladu, není-li totožná s osobou v bodě B/details of the person requesting issue of the certificate if not the same as person listed in point B </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Jméno/first and middle names </td>
                 <td id="PFname05" class="datacell"> </td>
@@ -566,7 +558,7 @@ export var MCPRINTB = `
                 <td class="setfield">Razítko zastupitelského/ matričního úřadu ČR</td>
                 <td class="fillfield"></td>
             </tr>
-        </table>R
+        </table>
     </div> `
 
 export var DCPRINTA = `
@@ -579,7 +571,7 @@ export var DCPRINTA = `
         <h4> A. Označení požadovaného dokladu/Designation of requested certicfcate </h4>
         <b>Úmrtní list/death certificace </b>
         <h4> B. Údaje o osobě, které se žádaný doklad týká/ Details of the person on the certificate </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Současné příjmení/ Current surname </td>
                 <td id="PCsname01" class="datacell">  </td>
@@ -623,7 +615,7 @@ export var DCPRINTA = `
     </div>
     <div class="printform" id="dcprint02">
         <h4> Údaje o osobě, která žádá o vystavení dokladu, není-li totožná s osobou v bodě B/details of the person requesting issue of the certificate if not the same as person listed in point B </h4>
-        <table>
+        <table class="datatable">
             <tr>
                 <td class="textcell"> Jméno/first and middle names </td>
                 <td id="PFname05" class="datacell"> </td>
