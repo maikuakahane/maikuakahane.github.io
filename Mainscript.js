@@ -113,7 +113,7 @@ window.onload = function () {
                         else if (RELI[2].checked) {
                             RELID = "Evangelické / Protestant"
                         }
-                        else if (REL[3].checked) {
+                        else if (RELI[3].checked) {
                             RELID = "Židovské / Jewish"
                         }
                         if (FORMED == true) {
@@ -374,7 +374,7 @@ window.onload = function () {
                             else if (RELI[2].checked) {
                                 RELID = "Evangelické / Protestant"
                             }
-                            else if (REL[3].checked) {
+                            else if (RELI[3].checked) {
                                 RELID = "Židovské / Jewish"
                             }
                             if (FORMED == true) {
@@ -612,7 +612,7 @@ window.onload = function () {
                     else if (RELI[2].checked) {
                         RELID = "Evangelické / Protestant"
                     }
-                    else if (REL[3].checked) {
+                    else if (RELI[3].checked) {
                         RELID = "Židovské / Jewish"
                     }
                     NAVF.innerHTML = DCDFNAV04A
