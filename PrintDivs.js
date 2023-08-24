@@ -15,23 +15,23 @@ export var BCPRINTA = `
                 <td id="PCsname01" class="datacell">  </td>
             </tr>
             <tr>
-                <td class="textcell"> Rodné příjmení/surname at birth </td>
+                <td class="textcell"> Rodné příjmení/ surname at birth </td>
                 <td id="PBsname01" class="datacell"> </td>
             </tr>
             <tr>
-                <td class="textcell"> Jméno/first and middle names </td>
+                <td class="textcell"> Jméno/ first and middle names </td>
                 <td id="PFname01" class="datacell"> </td>
             </tr>
             <tr>
-                <td class="textcell"> Datum narození/date of birth </td>
+                <td class="textcell"> Datum narození/ date of birth </td>
                 <td id="PDob01" class="datacell"> </td>
             </tr>
             <tr>
-                <td class="textcell"> Místo narození/place of birth </td>
+                <td class="textcell"> Místo narození/ place of birth </td>
                 <td id="PPob01" class="datacell"> </td>
             </tr>
             <tr>
-                <td class="textcell"> Stát narození/country of birth </td>
+                <td class="textcell"> Stát narození/ country of birth </td>
                 <td id="PCob01" class="datacell"> </td>
             </tr>
             <tr>
@@ -39,7 +39,7 @@ export var BCPRINTA = `
                 <td id="PReli" class="datacell"> </td>
             </tr>
             <tr>
-                <td class="textcell"> Nynější bydliště/current address </td>
+                <td class="textcell"> Nynější bydliště/ current address </td>
                 <td id="PPadd01" class="datacell"> </td>
             </tr>
         </table>
@@ -50,7 +50,7 @@ export var BCPRINTA = `
                 <td id="PCsname04" class="datacell">  </td>
             </tr>
             <tr>
-                <td class="textcell"> Rodné příjmení jejich otce/surname at birth </td>
+                <td class="textcell"> Rodné příjmení jejich otce/ surname at birth </td>
                 <td id="PBsname04" class="datacell"> </td>
             </tr>
             <tr>
@@ -62,7 +62,7 @@ export var BCPRINTA = `
                 <td id="PCsname03" class="datacell">  </td>
             </tr>
             <tr>
-                <td class="textcell"> Rodné příjmení jejich matky/surname at birth </td>
+                <td class="textcell"> Rodné příjmení jejich matky/ surname at birth </td>
                 <td id="PBsname03" class="datacell"> </td>
             </tr>
             <tr>
@@ -75,7 +75,7 @@ export var BCPRINTA = `
         <h4> Údaje o osobě, která žádá o vystavení dokladu, není-li totožná s osobou v bodě B/details of the person requesting issue of the certificate if not the same as person listed in point B </h4>
         <table class="datatable">
             <tr>
-                <td class="textcell"> Jméno/first and middle names </td>
+                <td class="textcell"> Jméno/ first and middle names </td>
                 <td id="PFname05" class="datacell"> </td>
             </tr>
             <tr>
@@ -83,7 +83,7 @@ export var BCPRINTA = `
                 <td id="PCsname05" class="datacell">  </td>
             </tr>
             <tr>
-                <td class="textcell"> Rodinný poměr k osobě, na jejíž jméno má být doklad vystaven nebo uvedení právního zájmu na vystavení dokladu/family relationship to the person whose certificate should be issued or statement of legal interest on issue of the certificate </td>
+                <td class="textcell"> Rodinný poměr k osobě, na jejíž jméno má být doklad vystaven nebo uvedení právního zájmu na vystavení dokladu/ family relationship to the person whose certificate should be issued or statement of legal interest on issue of the certificate </td>
                 <td id="PRela" class="datacell">  </td>
             </tr>
         </table>
@@ -95,7 +95,7 @@ export var BCPRINTA = `
                 <td class="fillfield"></td>
                 </table>
          <table class="signtable2">
-                <td class="setfield">podpis žadatele/signature of applicant</td>
+                <td class="setfield">Podpis žadatele/ signature of applicant</td>
                 <td class="fillfield"></td>
             </tr>
             </table>
@@ -122,11 +122,11 @@ export var BCPRINTA = `
             </table>
             <table class="offtable">
             <tr>
-                <td class="setfield">Jméno, příjmení, funkce a podpis konzulárního úředníka/matrikáře</td>
+                <td class="setfield">Jméno, příjmení, funkce a podpis konzulárního úředníka/ matrikáře</td>
                 <td class="fillfield"></td>
             </tr>
             <tr>
-                <td class="setfield">Razítko zastupitelského/matričního úřadu ČR</td>
+                <td class="setfield">Razítko zastupitelského/ matričního úřadu ČR</td>
                 <td class="fillfield"></td>
             </tr>
         </table>
