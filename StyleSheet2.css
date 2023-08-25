@@ -84,13 +84,14 @@ input[type="date"] {
 }
 
 .datatable {
+    table-layout: fixed;
     width: 99%;
     border-style: hidden;
     border-width: 3px;
 }
 
 .datacell, .textcell {
-    min-width: 50%;
+    width: 50%;
     border-style: solid;
     border-width: 3px;
     margin: auto;
