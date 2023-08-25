@@ -198,3 +198,10 @@ input[type="date"] {
         page-break-after: always;
     }
 }
+
+@media screen and (max-width:450pm) {
+    .questform {
+        scale: 1.3;
+         margin: 15% auto;
+    }
+}
