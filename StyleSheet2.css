@@ -227,3 +227,19 @@ body {
         .questform input[type="text"], .questform input[type="date"] {
             transform: scale(1.1);
         }
+}
+
+@media (pointer:coarse) and (orientation:portrait) {
+    .printform h3 {
+        font-size: small;
+    }
+
+    .printform h4 {
+        font-size: x-small;
+    }
+
+    .printform b {
+        font-size: xx-small;
+    }
+}
+
