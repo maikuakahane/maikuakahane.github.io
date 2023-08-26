@@ -39,41 +39,41 @@ body {
     box-shadow: 5px 5px 5px 5px lightgray;
 }
 
-input[type="button"] {
-    font-family: OpenDyslexic, Georgia, sans-serif;
-    margin: 5px auto;
-    min-width: 40%;
-    max-width: 80%;
-    border-width: 3px;
-    border-style: solid;
-    border-color: lightcoral;
-    border-radius: 20px;
-    background-color: lemonchiffon;
-    box-shadow: 2px 2px 2px 2px lightgray;
-}
+    .questform input[type="button"] {
+        font-family: OpenDyslexic, Georgia, sans-serif;
+        margin: 5px auto;
+        min-width: 40%;
+        max-width: 80%;
+        border-width: 3px;
+        border-style: solid;
+        border-color: lightcoral;
+        border-radius: 20px;
+        background-color: lemonchiffon;
+        box-shadow: 2px 2px 2px 2px lightgray;
+    }
 
-input[type="text"] {
-    float: right;
-    min-width: 40%;
-}
+    .questform input[type="text"] {
+        float: right;
+        min-width: 40%;
+    }
 
-input[type="date"] {
-    float: right;
-    min-width: 40%;
-}
+    .questform input[type="date"] {
+        float: right;
+        min-width: 40%;
+    }
 
-.questform table {
-    width: 99%;
-    border-style: hidden;
-    border-width: 3px;
-}
+    .questform table {
+        width: 99%;
+        border-style: hidden;
+        border-width: 3px;
+    }
 
-.questform td, tr {
-    min-width: 50%;
-    border-style: solid;
-    border-width: 3px;
-    margin: auto;
-}
+    .questform td {
+        min-width: 50%;
+        border-style: solid;
+        border-width: 3px;
+        margin: auto;
+    }
 
 .printform {
     max-width: 95%;
@@ -123,7 +123,6 @@ input[type="date"] {
 }
 
     .signtable2 .setfield {
-      
         vertical-align: bottom;
         text-align: center
     }
@@ -138,7 +137,6 @@ input[type="date"] {
 }
 
     .ppttable1 .setfield {
-  
         vertical-align: bottom;
         text-align: right;
     }
@@ -196,10 +194,36 @@ input[type="date"] {
     }
 }
 
+
 @media (pointer:coarse) {
     .questform {
-        min-width: 50%;
-        max-width: 70%;
+        min-width: 60%;
+        max-width: 79%;
         transform: scale(1.2);
-        margin: 15% auto;
-    } 
+        margin-top: 40%;
+    }
+
+        .questform input[type="button"], .questform input[type="radio"] {
+            transform: scale(1.2);
+        }
+
+        .questform input[type="text"], .questform input[type="date"] {
+            transform: scale(1.1);
+        }
+}
+
+@media (pointer:coarse) and (orientation:landscape) {
+    .questform {
+        min-width: 60%;
+        max-width: 79%;
+        transform: scale(1.2);
+        margin-top: 8%;
+    }
+
+        .questform input[type="button"], .questform input[type="radio"] {
+            transform: scale(1.2);
+        }
+
+        .questform input[type="text"], .questform input[type="date"] {
+            transform: scale(1.1);
+        }
