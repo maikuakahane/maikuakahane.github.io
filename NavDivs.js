@@ -22,27 +22,27 @@ export var BCDFNAV01A = `
         <h2>Your details</h2>
         <form>
             <div>
-                <label> Your first and middle names: </label>
-                <input type="text" id="Fname01">
+                <label for="Fname01"> Your first and middle names: </label>
+                <input type="text" id="Fname01" autocomplete="given-name">
             </div>
             <div>
-                <label> Your current surname: </label>
-                <input type="text" id="Csname01">
+                <label for="Csname01"> Your current surname: </label>
+                <input type="text" id="Csname01" autocomplete="family-name">
             </div>
             <div>
-                <label> Your surname at birth: </label>
+                <label for="Bsname01"> Your surname at birth: </label>
                 <input type="text" id="Bsname01">
             </div>
             <div>
-                <label>Date of your birth: </label>
-                <input type="date" id="Dob01">
+                <label for="Dob01">Date of your birth: </label>
+                <input type="date" id="Dob01" autocomplete="bday">
             </div>
             <div>
-                <label>Place of your birth (town): </label>
+                <label for="Pob01">Place of your birth (town): </label>
                 <input type="text" id="Pob01">
             </div>
             <div>
-                <label>Country of your birth</label>
+                <label for="Cob01">Country of your birth</label>
                 <input type="text" id="Cob01">
             </div>
             <div class="button">
@@ -56,27 +56,27 @@ export var BCDFNAV01B = `
         <h2>Details of the person you are applying for</h2>
         <form>
             <div>
-                <label> Their first and middle names: </label>
+                <label for="Fname01"> Their first and middle names: </label>
                 <input type="text" id="Fname01">
             </div>
             <div>
-                <label> Their current surname: </label>
+                <label for="Csname01"> Their current surname: </label>
                 <input type="text" id="Csname01">
             </div>
             <div>
-                <label> Their surname at birth: </label>
+                <label for="Bsname01"> Their surname at birth: </label>
                 <input type="text" id="Bsname01">
             </div>
             <div>
-                <label>Date of their birth: </label>
+                <label for="Dob01">Date of their birth: </label>
                 <input type="date" id="Dob01">
             </div>
             <div>
-                <label>Place of their birth (town): </label>
+                <label for="Pob01">Place of their birth (town): </label>
                 <input type="text" id="Pob01">
             </div>
             <div>
-                <label>Country of their birth</label>
+                <label for="Cob01">Country of their birth</label>
                 <input type="text" id="Cob01">
             </div>
             <div class="button">
@@ -90,27 +90,27 @@ export var BCDFNAV02A = `
         <h2>Details of your parents</h2>
         <form>
             <div>
-                <label> Your mother\'s first and middle names: </label>
+                <label for="Fname03"> Your mother\'s first and middle names: </label>
                 <input type="text" id="Fname03">
             </div>
             <div>
-                <label> Your mother\'s current surname: </label>
+                <label for="Csname03"> Your mother\'s current surname: </label>
                 <input type="text" id="Csname03">
             </div>
             <div>
-                <label> Your mother\'s surname at birth: </label>
+                <label for="Bsname03"> Your mother\'s surname at birth: </label>
                 <input type="text" id="Bsname03">
             </div>
             <div>
-                <label> Your father\'s first and middle names: </label>
+                <label for="Fname04"> Your father\'s first and middle names: </label>
                 <input type="text" id="Fname04">
             </div>
             <div>
-                <label> Your father\'s current surname: </label>
+                <label for="Csname04"> Your father\'s current surname: </label>
                 <input type="text" id="Csname04">
             </div>
             <div>
-                <label> Your father\'s surname at birth: </label>
+                <label for="Bsname04"> Your father\'s surname at birth: </label>
                 <input type="text" id="Bsname04">
             </div>
             <div class="button">
@@ -124,27 +124,27 @@ export var BCDFNAV02B = `
         <h2>Details of  parents of the person you are applying for</h2>
         <form>
             <div>
-                <label> Their mother\'s first and middle names: </label>
+                <label for="Fname03"> Their mother\'s first and middle names: </label>
                 <input type="text" id="Fname03">
             </div>
             <div>
-                <label> Their mother\'s current surname: </label>
+                <label for="Csname03"> Their mother\'s current surname: </label>
                 <input type="text" id="Csname03">
             </div>
             <div>
-                <label> Their mother\'s surname at birth: </label>
+                <label for="Bsname03"> Their mother\'s surname at birth: </label>
                 <input type="text" id="Bsname03">
             </div>
             <div>
-                <label> Their father\'s first and middle names: </label>
+                <label for="Fname04"> Their father\'s first and middle names: </label>
                 <input type="text" id="Fname04">
             </div>
             <div>
-                <label> Their father\'s current surname: </label>
+                <label for="Csname04"> Their father\'s current surname: </label>
                 <input type="text" id="Csname04">
             </div>
             <div>
-                <label> Your father\'s surname at birth: </label>
+                <label for="Bsname04"> Your father\'s surname at birth: </label>
                 <input type="text" id="Bsname04">
             </div>
             <div class="button">
@@ -262,8 +262,8 @@ export var BCDFNAV05A = `
         <h2> Further details about you</h2>
         <form>
             <div>
-                <label> What is your postal address: </label>
-                <input type="text" id="Padd01">
+                <label for="Padd01"> What is your postal address: </label>
+                <input type="text" id="Padd01" autocomplete="street-address" >
             </div>
             <div class="button">
                 <input type="button" id="df05btn1" value="Next" />
@@ -276,15 +276,15 @@ export var BCDFNAV05B = `
         <h2> Further details about you</h2>
         <form>
             <div>
-                <label> What are your first and middle names: </label>
-                <input type="text" id="Fname05">
+                <label for="Fname05"> What are your first and middle names: </label>
+                <input type="text" id="Fname05" autocomplete="given-name">
             </div>
             <div>
-                <label> What is your current surname: </label>
-                <input type="text" id="Csname05">
+                <label for="Csname05"> What is your current surname: </label>
+                <input type="text" id="Csname05" autocomplete="family-name">
             </div>
             <div>
-                <label> What is your postal address: </label>
+                <label for="Padd01"> What is your postal address: </label>
                 <input type="text" id="Padd01">
             </div>
             <div class="button">
