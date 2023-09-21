@@ -144,7 +144,7 @@ window.onload = function () {
                                     RELAD = "Praodič / Grandparent"
                                 }
                                 else if (RELA[4].checked) {
-                                    RELAD = "Potomek v přímé linii / Descenant in direct line"
+                                    RELAD = "Potomek v přímé linii / Descendant in direct line"
                                 }
                                 else if (RELA[5].checked) {
                                     RELAD = "Manžel/ka / Spouse"
@@ -405,7 +405,7 @@ window.onload = function () {
                                         RELAD = "Praodič / Grandparent"
                                     }
                                     else if (RELA[4].checked) {
-                                        RELAD = "Potomek v přímé linii / Descenant in direct line"
+                                        RELAD = "Potomek v přímé linii / Descendant in direct line"
                                     }
                                     else if (RELA[5].checked) {
                                         RELAD = "Manžel/ka / Spouse"
@@ -633,7 +633,7 @@ window.onload = function () {
                             RELAD = "Praodič / Grandparent"
                         }
                         else if (RELA[4].checked) {
-                            RELAD = "Potomek v přímé linii / Descenant in direct line"
+                            RELAD = "Potomek v přímé linii / Descendant in direct line"
                         }
                         else if (RELA[5].checked) {
                             RELAD = "Manžel/ka / Spouse"

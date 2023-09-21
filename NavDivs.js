@@ -237,7 +237,7 @@ export var BCDFNAV04B = `
             </div>
             <div>
                 <input type="radio" id="relachoice5" name="relation" />
-                <label for="relachoice5"> I am their descenant in direct line </label>
+                <label for="relachoice5"> I am their descendant in direct line </label>
             </div>
             <div>
                 <input type="radio" id="relachoice6" name="relation" />
@@ -736,7 +736,7 @@ export var MCDFNAV05B = `
             </div>
             <div>
                 <input type="radio" id="relachoice5" name="relation" />
-                <label for="relachoice5"> I am their descenant in direct line </label>
+                <label for="relachoice5"> I am their descendant in direct line </label>
             </div>
             <div>
                 <input type="radio" id="relachoice6" name="relation" />
@@ -1080,7 +1080,7 @@ export var DCDFNAV04A = `
             </div>
             <div>
                 <input type="radio" id="relachoice5" name="relation" />
-                <label for="relachoice5"> I am their descenant in direct line </label>
+                <label for="relachoice5"> I am their descendant in direct line </label>
             </div>
             <div>
                 <input type="radio" id="relachoice6" name="relation" />
